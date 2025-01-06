@@ -1,0 +1,37 @@
+2024-09-27 17:46:58,947 INFO    Thread-9 (_run_job):62111 [wandb_setup.py:_flush():77] Current SDK version is 0.17.8
+2024-09-27 17:46:58,947 INFO    Thread-9 (_run_job):62111 [wandb_setup.py:_flush():77] Configure stats pid to 62111
+2024-09-27 17:46:58,947 INFO    Thread-9 (_run_job):62111 [wandb_setup.py:_flush():77] Loading settings from /Users/arnavkapur/.config/wandb/settings
+2024-09-27 17:46:58,947 INFO    Thread-9 (_run_job):62111 [wandb_setup.py:_flush():77] Loading settings from /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/settings
+2024-09-27 17:46:58,947 INFO    Thread-9 (_run_job):62111 [wandb_setup.py:_flush():77] Loading settings from environment variables: {'project': 'EEGNet_P001_final', 'entity': 'constanzealbrecht-eth-z-rich', 'root_dir': '/Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch', 'run_id': 'gcvjn5kw', 'sweep_param_path': '/Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/sweep-fa8oqczy/config-gcvjn5kw.yaml', 'sweep_id': 'fa8oqczy'}
+2024-09-27 17:46:58,947 INFO    Thread-9 (_run_job):62111 [wandb_setup.py:_flush():77] Applying setup settings: {'_disable_service': False}
+2024-09-27 17:46:58,948 INFO    Thread-9 (_run_job):62111 [wandb_setup.py:_flush():77] Inferring run settings from compute environment: {'program_relpath': 'Generation/pytorch/train.py', 'program_abspath': '/Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/train.py', 'program': '/Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/train.py'}
+2024-09-27 17:46:58,948 INFO    Thread-9 (_run_job):62111 [wandb_setup.py:_flush():77] Applying login settings: {}
+2024-09-27 17:46:58,948 INFO    Thread-9 (_run_job):62111 [wandb_init.py:_log_setup():524] Logging user logs to /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_174658-gcvjn5kw/logs/debug.log
+2024-09-27 17:46:58,948 INFO    Thread-9 (_run_job):62111 [wandb_init.py:_log_setup():525] Logging internal logs to /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_174658-gcvjn5kw/logs/debug-internal.log
+2024-09-27 17:46:58,948 INFO    Thread-9 (_run_job):62111 [wandb_init.py:init():607] calling init triggers
+2024-09-27 17:46:58,948 INFO    Thread-9 (_run_job):62111 [wandb_init.py:init():614] wandb.init called with sweep_config: {'datamodule': {'batch_size': 128, 'data_dir': '/Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/Segmented_data/train/P10train.npy', 'num_workers': 0, 'seed': 42, 'val_run': '/Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/Segmented_data/val/P10val.npy'}, 'final_model': False, 'fine_tuning': False, 'model': {'D': 2, 'F1': 16, 'drop_prob': 0.5, 'final_conv_length': 'auto', 'in_chans': 64, 'input_window_samples': 4096, 'kernel_length': 64, 'lr': 0.002564348542789732, 'momentum': 0.1, 'n_classes': 6, 'one_cycle_lr': True, 'pool_mode': 'max', 'weight_decay': 0.003835000749000426}, 'model_name': 'EEGNET', 'trainer': {'max_epochs': 30}}
+config: {}
+2024-09-27 17:46:58,948 INFO    Thread-9 (_run_job):62111 [wandb_init.py:init():657] starting backend
+2024-09-27 17:46:58,948 INFO    Thread-9 (_run_job):62111 [wandb_init.py:init():661] setting up manager
+2024-09-27 17:46:58,955 INFO    Thread-9 (_run_job):62111 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-09-27 17:46:58,955 INFO    Thread-9 (_run_job):62111 [wandb_init.py:init():669] backend started and connected
+2024-09-27 17:46:58,967 INFO    Thread-9 (_run_job):62111 [wandb_run.py:_config_callback():1392] config_cb None None {'datamodule': {'batch_size': 128, 'data_dir': '/Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/Segmented_data/train/P10train.npy', 'num_workers': 0, 'seed': 42, 'val_run': '/Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/Segmented_data/val/P10val.npy'}, 'final_model': False, 'fine_tuning': False, 'model': {'D': 2, 'F1': 16, 'drop_prob': 0.5, 'final_conv_length': 'auto', 'in_chans': 64, 'input_window_samples': 4096, 'kernel_length': 64, 'lr': 0.002564348542789732, 'momentum': 0.1, 'n_classes': 6, 'one_cycle_lr': True, 'pool_mode': 'max', 'weight_decay': 0.003835000749000426}, 'model_name': 'EEGNET', 'trainer': {'max_epochs': 30}}
+2024-09-27 17:46:58,970 INFO    Thread-9 (_run_job):62111 [wandb_init.py:init():767] updated telemetry
+2024-09-27 17:46:59,002 INFO    Thread-9 (_run_job):62111 [wandb_init.py:init():800] communicating run to backend with 90.0 second timeout
+2024-09-27 17:46:59,375 INFO    Thread-9 (_run_job):62111 [wandb_init.py:init():851] starting run threads in backend
+2024-09-27 17:46:59,746 INFO    Thread-9 (_run_job):62111 [wandb_run.py:_console_start():2463] atexit reg
+2024-09-27 17:46:59,747 INFO    Thread-9 (_run_job):62111 [wandb_run.py:_redirect():2309] redirect: wrap_raw
+2024-09-27 17:46:59,747 INFO    Thread-9 (_run_job):62111 [wandb_run.py:_redirect():2374] Wrapping output streams.
+2024-09-27 17:46:59,747 INFO    Thread-9 (_run_job):62111 [wandb_run.py:_redirect():2399] Redirects installed.
+2024-09-27 17:46:59,748 INFO    Thread-9 (_run_job):62111 [wandb_init.py:init():894] run started, returning control to user process
+2024-09-27 17:47:01,510 INFO    Thread-9 (_run_job):62111 [wandb_run.py:_config_callback():1392] config_cb None None {'lr': 0.002564348542789732, 'one_cycle_lr': True, 'weight_decay': 0.003835000749000426, 'epochs': 30, 'in_chans': 64, 'n_classes': 6, 'final_conv_length': 'auto', 'input_window_samples': 4096, 'F1': 16, 'D': 2, 'kernel_length': 64, 'pool_mode': 'max', 'drop_prob': 0.5, 'momentum': 0.1}
+2024-09-27 17:47:01,547 INFO    Thread-9 (_run_job):62111 [wandb_run.py:_finish():2160] finishing run constanzealbrecht-eth-z-rich/EEGNet_P001_final/gcvjn5kw
+2024-09-27 17:47:01,548 INFO    Thread-9 (_run_job):62111 [wandb_run.py:_atexit_cleanup():2424] got exitcode: 1
+2024-09-27 17:47:01,549 INFO    Thread-9 (_run_job):62111 [wandb_run.py:_restore():2406] restore
+2024-09-27 17:47:01,550 INFO    Thread-9 (_run_job):62111 [wandb_run.py:_restore():2412] restore done
+2024-09-27 17:47:01,550 INFO    Thread-9 (_run_job):62111 [wandb_run.py:_on_finish():2677] communicating current version
+2024-09-27 17:47:01,635 INFO    Thread-9 (_run_job):62111 [wandb_run.py:_on_finish():2686] got version response upgrade_message: "wandb version 0.18.2 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-09-27 17:47:07,911 INFO    Thread-9 (_run_job):62111 [wandb_run.py:_footer_history_summary_info():4078] rendering history
+2024-09-27 17:47:07,911 INFO    Thread-9 (_run_job):62111 [wandb_run.py:_footer_history_summary_info():4110] rendering summary
+2024-09-27 17:47:07,921 INFO    Thread-9 (_run_job):62111 [wandb_run.py:_footer_sync_info():4037] logging synced files

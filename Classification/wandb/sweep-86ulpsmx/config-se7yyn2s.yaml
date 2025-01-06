@@ -1,0 +1,33 @@
+wandb_version: 1
+
+datamodule:
+  value:
+    batch_size: 128
+    data_dir: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/Segmented_data/train/P10train.npy
+    num_workers: 0
+    seed: 42
+    val_run: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/Segmented_data/val/P10val.npy
+final_model:
+  value: false
+fine_tuning:
+  value: false
+model:
+  value:
+    D: 2
+    F1: 64
+    drop_prob: 0.25
+    final_conv_length: auto
+    in_chans: 64
+    input_window_samples: 4096
+    kernel_length: 64
+    lr: 0.014052837608604847
+    momentum: 0.1
+    n_classes: 6
+    one_cycle_lr: true
+    pool_mode: max
+    weight_decay: 0.007261682258284079
+model_name:
+  value: EEGNET
+trainer:
+  value:
+    max_epochs: 30

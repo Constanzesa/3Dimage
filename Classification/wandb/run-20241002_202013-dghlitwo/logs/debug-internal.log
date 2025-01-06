@@ -1,0 +1,1044 @@
+2024-10-02 20:20:13,409 INFO    StreamThr :34886 [internal.py:wandb_internal():85] W&B internal server running at pid: 34886, started at: 2024-10-02 20:20:13.408173
+2024-10-02 20:20:13,410 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status
+2024-10-02 20:20:13,426 INFO    WriterThread:34886 [datastore.py:open_for_write():87] open: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/run-dghlitwo.wandb
+2024-10-02 20:20:13,427 DEBUG   SenderThread:34886 [sender.py:send():391] send: header
+2024-10-02 20:20:13,459 DEBUG   SenderThread:34886 [sender.py:send():391] send: run
+2024-10-02 20:20:13,903 INFO    SenderThread:34886 [dir_watcher.py:__init__():211] watching files in: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files
+2024-10-02 20:20:13,903 INFO    SenderThread:34886 [sender.py:_start_run_threads():1200] run started: dghlitwo with start time 1727914813.407756
+2024-10-02 20:20:13,926 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: run_start
+2024-10-02 20:20:13,940 DEBUG   HandlerThread:34886 [system_info.py:__init__():26] System info init
+2024-10-02 20:20:13,941 DEBUG   HandlerThread:34886 [system_info.py:__init__():41] System info init done
+2024-10-02 20:20:13,941 INFO    HandlerThread:34886 [system_monitor.py:start():194] Starting system monitor
+2024-10-02 20:20:13,941 INFO    SystemMonitor:34886 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-10-02 20:20:13,942 INFO    HandlerThread:34886 [system_monitor.py:probe():214] Collecting system info
+2024-10-02 20:20:13,942 INFO    SystemMonitor:34886 [interfaces.py:start():188] Started cpu monitoring
+2024-10-02 20:20:13,943 INFO    SystemMonitor:34886 [interfaces.py:start():188] Started disk monitoring
+2024-10-02 20:20:13,943 DEBUG   HandlerThread:34886 [system_info.py:probe():152] Probing system
+2024-10-02 20:20:13,943 INFO    SystemMonitor:34886 [interfaces.py:start():188] Started memory monitoring
+2024-10-02 20:20:13,976 INFO    SystemMonitor:34886 [interfaces.py:start():188] Started network monitoring
+2024-10-02 20:20:13,984 DEBUG   HandlerThread:34886 [system_info.py:_probe_git():137] Probing git
+2024-10-02 20:20:14,022 DEBUG   HandlerThread:34886 [system_info.py:_probe_git():145] Probing git done
+2024-10-02 20:20:14,023 DEBUG   HandlerThread:34886 [system_info.py:probe():200] Probing system done
+2024-10-02 20:20:14,023 DEBUG   HandlerThread:34886 [system_monitor.py:probe():223] {'os': 'macOS-14.5-x86_64-i386-64bit', 'python': '3.10.12', 'heartbeatAt': '2024-10-03T00:20:13.943779', 'startedAt': '2024-10-03T00:20:13.391361', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/train.py', 'codePathLocal': 'train.py', 'codePath': 'Generation/pytorch/train.py', 'git': {'remote': 'https://github.com/AttentivU/imagery2024.git', 'commit': 'ed427bd2305bdf63c8fec2141bd28d1a8ae5e48d'}, 'email': 'calbrecht@ethz.ch', 'root': '/Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024', 'host': 'C02DV3PNMD6R.tld', 'username': 'arnavkapur', 'executable': '/Users/arnavkapur/.pyenv/versions/3.10.12/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2600, 'min': 2600, 'max': 2600}, 'cpu_freq_per_core': [{'current': 2600, 'min': 2600, 'max': 2600}], 'disk': {'/': {'total': 465.62699127197266, 'used': 12.405502319335938}}, 'memory': {'total': 16.0}}
+2024-10-02 20:20:14,023 INFO    HandlerThread:34886 [system_monitor.py:probe():224] Finished collecting system info
+2024-10-02 20:20:14,023 INFO    HandlerThread:34886 [system_monitor.py:probe():227] Publishing system info
+2024-10-02 20:20:14,024 INFO    HandlerThread:34886 [system_monitor.py:probe():229] Finished publishing system info
+2024-10-02 20:20:14,041 DEBUG   SenderThread:34886 [sender.py:send():391] send: files
+2024-10-02 20:20:14,041 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2024-10-02 20:20:14,328 INFO    wandb-upload_0:34886 [upload_job.py:push():130] Uploaded file /var/folders/w2/bjrs7bh539701pd5yx65p_cc0000gp/T/tmpc54z9tjywandb/jeq6zx9i-wandb-metadata.json
+2024-10-02 20:20:14,437 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: python_packages
+2024-10-02 20:20:14,437 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: python_packages
+2024-10-02 20:20:14,439 DEBUG   SenderThread:34886 [sender.py:send():391] send: telemetry
+2024-10-02 20:20:14,439 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:20:14,439 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:20:14,442 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:20:14,912 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/requirements.txt
+2024-10-02 20:20:14,913 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:20:14,913 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/wandb-metadata.json
+2024-10-02 20:20:15,350 DEBUG   SenderThread:34886 [sender.py:send():391] send: config
+2024-10-02 20:20:16,922 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:20:19,374 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:20:24,447 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:20:24,452 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:20:25,673 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:20:25,675 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:20:25,675 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:20:25,677 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:20:25,989 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/wandb-summary.json
+2024-10-02 20:20:26,991 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:20:29,438 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:20:29,439 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:20:29,648 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:20:34,458 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:20:35,470 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:20:41,454 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:20:44,443 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:20:44,443 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:20:44,454 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:20:46,628 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:20:47,413 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/config.yaml
+2024-10-02 20:20:52,462 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:20:54,456 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:20:57,466 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:20:59,445 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:20:59,446 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:21:02,588 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:21:04,458 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:21:08,474 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:21:13,978 DEBUG   SystemMonitor:34886 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-10-02 20:21:13,980 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:21:13,982 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:21:14,449 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:21:14,449 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:21:14,460 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:21:19,466 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:21:24,465 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:21:24,469 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:21:29,450 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:21:29,450 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:21:29,591 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:21:34,469 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:21:35,478 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:21:40,482 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:21:43,986 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:21:44,450 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:21:44,451 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:21:44,470 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:21:45,716 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:21:51,484 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:21:54,470 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:21:56,800 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:21:57,584 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:21:59,452 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:21:59,453 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:22:01,478 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:22:01,504 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:22:01,504 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:22:01,505 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:22:01,510 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:22:01,511 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:22:01,512 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:22:01,512 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:22:01,514 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:22:01,514 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:22:01,514 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:22:01,515 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:22:01,595 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/wandb-summary.json
+2024-10-02 20:22:02,520 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:22:03,600 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:22:04,473 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:22:08,498 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:22:13,990 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:22:13,991 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:22:14,453 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:22:14,453 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:22:14,474 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:22:19,489 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:22:24,474 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:22:24,491 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:22:29,456 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:22:29,456 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:22:29,570 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:22:34,475 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:22:35,499 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:22:40,501 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:22:43,995 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:22:44,458 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:22:44,458 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:22:44,479 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:22:45,593 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:22:51,508 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:22:54,480 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:22:56,511 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:22:59,461 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:22:59,461 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:23:01,631 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:23:04,481 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:23:07,519 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:23:13,520 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:23:13,999 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:23:14,466 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:23:14,467 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:23:14,483 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:23:18,588 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:23:24,486 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:23:24,519 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:23:29,470 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:23:29,475 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:23:29,688 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:23:34,488 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:23:35,525 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:23:39,887 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:23:40,528 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:23:44,005 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:23:44,473 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:23:44,475 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:23:44,495 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:23:44,868 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:23:44,870 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:23:44,870 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:23:44,871 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:23:44,901 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:23:44,902 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:23:44,902 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:23:44,902 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:23:44,904 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:23:44,904 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/wandb-summary.json
+2024-10-02 20:23:44,904 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:23:44,905 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:23:44,905 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:23:45,909 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:23:45,909 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/wandb-summary.json
+2024-10-02 20:23:45,909 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:23:47,912 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:23:51,543 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:23:54,494 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:23:57,539 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:23:59,473 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:23:59,474 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:24:02,634 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:24:04,495 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:24:08,549 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:24:13,557 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:24:14,005 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:24:14,474 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:24:14,474 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:24:14,499 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:24:18,634 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:24:24,501 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:24:24,552 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:24:29,477 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:24:29,478 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:24:29,602 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:24:34,501 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:24:35,561 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:24:40,565 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:24:44,010 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:24:44,481 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:24:44,481 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:24:44,505 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:24:45,653 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:24:51,568 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:24:54,507 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:24:56,572 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:24:59,481 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:24:59,482 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:25:02,572 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:25:04,518 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:25:07,580 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:25:12,581 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:25:14,051 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:25:14,494 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:25:14,499 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:25:14,517 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:25:17,643 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:25:23,168 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:25:23,575 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:25:24,512 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:25:28,590 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:25:29,102 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:25:29,103 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:25:29,103 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:25:29,105 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:25:29,109 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:25:29,110 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:25:29,110 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:25:29,112 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:25:29,113 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:25:29,113 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:25:29,114 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:25:29,114 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:25:29,184 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/wandb-summary.json
+2024-10-02 20:25:29,489 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:25:29,489 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:25:31,189 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:25:32,190 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:25:34,517 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:25:34,587 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:25:39,642 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:25:44,052 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:25:44,492 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:25:44,492 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:25:44,517 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:25:45,635 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:25:51,594 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:25:54,517 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:25:56,599 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:25:59,493 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:25:59,493 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:26:01,726 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:26:04,517 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:26:07,606 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:26:12,608 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:26:14,055 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:26:14,496 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:26:14,496 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:26:14,518 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:26:17,616 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:26:23,610 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:26:24,519 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:26:29,499 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:26:29,500 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:26:29,578 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:26:34,521 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:26:34,608 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:26:39,612 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:26:44,055 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:26:44,500 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:26:44,500 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:26:44,526 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:26:44,615 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:26:49,630 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:26:54,527 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:26:54,631 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:26:59,505 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:26:59,506 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:26:59,832 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:27:04,528 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:27:05,654 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:27:11,650 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:27:13,733 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:27:14,062 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:27:14,508 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:27:14,508 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:27:14,529 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:27:16,667 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:27:20,923 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:27:20,924 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:27:20,924 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:27:20,927 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:27:20,935 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:27:20,936 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:27:20,936 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:27:20,936 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:27:20,938 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:27:20,938 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:27:20,938 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:27:20,939 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:27:21,760 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/wandb-summary.json
+2024-10-02 20:27:21,761 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:27:21,941 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:27:24,529 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:27:27,651 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:27:29,508 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:27:29,509 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:27:32,670 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:27:34,534 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:27:38,664 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:27:43,665 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:27:44,064 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:27:44,513 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:27:44,513 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:27:44,532 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:27:48,668 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:27:53,673 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:27:54,535 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:27:59,516 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:27:59,516 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:27:59,655 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:28:04,540 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:28:04,668 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:28:09,672 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:28:14,065 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:28:14,520 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:28:14,520 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:28:14,543 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:28:14,675 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:28:19,678 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:28:24,545 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:28:24,679 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:28:29,522 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:28:29,522 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:28:29,682 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:28:34,550 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:28:35,684 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:28:40,689 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:28:44,067 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:28:44,525 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:28:44,525 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:28:44,550 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:28:45,690 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:28:50,696 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:28:54,555 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:28:56,693 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:28:59,527 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:28:59,531 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:29:01,779 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:29:04,650 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:29:07,714 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:29:12,028 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:29:13,167 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:29:14,071 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:29:14,531 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:29:14,532 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:29:14,556 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:29:18,713 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:29:20,406 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:29:20,407 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:29:20,408 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:29:20,409 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:29:20,416 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:29:20,417 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:29:20,417 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:29:20,417 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:29:20,419 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:29:20,419 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:29:20,420 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:29:20,420 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:29:21,072 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/wandb-summary.json
+2024-10-02 20:29:22,073 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:29:24,432 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:29:24,562 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:29:29,534 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:29:29,536 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:29:29,729 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:29:34,780 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:29:34,847 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:29:40,720 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:29:44,071 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:29:44,532 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:29:44,533 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:29:44,600 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:29:45,722 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:29:50,731 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:29:54,605 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:29:56,733 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:29:59,533 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:29:59,534 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:30:01,741 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:30:04,604 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:30:07,739 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:30:12,743 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:30:14,076 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:30:14,533 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:30:14,534 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:30:14,604 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:30:17,753 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:30:23,750 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:30:24,604 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:30:28,754 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:30:29,535 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:30:29,535 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:30:33,755 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:30:34,606 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:30:38,761 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:30:44,079 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:30:44,080 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:30:44,538 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:30:44,538 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:30:44,609 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:30:49,758 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:30:54,609 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:30:54,762 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:30:59,541 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:30:59,542 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:30:59,767 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:31:04,610 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:31:04,767 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:31:09,771 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:31:14,079 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:31:14,541 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:31:14,542 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:31:14,610 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:31:15,772 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:31:20,780 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:31:24,381 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:31:24,614 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:31:26,781 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:31:29,544 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:31:29,546 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:31:31,427 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:31:31,428 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:31:31,429 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:31:31,430 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:31:31,440 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:31:31,441 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:31:31,441 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:31:31,442 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:31:31,443 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:31:31,443 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:31:31,443 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:31:31,444 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:31:32,406 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/wandb-summary.json
+2024-10-02 20:31:32,407 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:31:32,448 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:31:34,615 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:31:37,789 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:31:42,796 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:31:44,145 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:31:44,556 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:31:44,557 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:31:44,617 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:31:47,800 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:31:53,800 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:31:54,620 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:31:58,805 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:31:59,553 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:31:59,554 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:32:03,811 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:32:04,624 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:32:08,817 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:32:14,144 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:32:14,145 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:32:14,557 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:32:14,557 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:32:14,625 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:32:19,809 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:32:24,625 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:32:24,812 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:32:29,558 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:32:29,559 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:32:29,817 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:32:34,626 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:32:34,818 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:32:39,822 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:32:44,148 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:32:44,270 WARNING FileStreamThread:34886 [file_stream.py:request_with_retry():674] requests_with_retry encountered retryable exception: 502 Server Error: Bad Gateway for url: https://api.wandb.ai/files/constanzealbrecht-eth-z-rich/EEGNet_P001_final/dghlitwo/file_stream. func: <bound method Session.post of <requests.sessions.Session object at 0x113b858d0>>, args: ('https://api.wandb.ai/files/constanzealbrecht-eth-z-rich/EEGNet_P001_final/dghlitwo/file_stream',), kwargs: {'json': {'files': {'wandb-summary.json': {'offset': 0, 'content': ['{"Learning Rate Scheduling": 0.012096467822971501, "trainer/global_step": 6, "_timestamp": 1727915491.441164, "_runtime": 678.0334079265594, "_step": 18, "val_loss": 1.8059782981872559, "val_acc": 0.21276596188545227, "epoch": 5, "train_loss": 12.450244903564453, "train_acc": 0.1489361673593521}']}, 'wandb-history.jsonl': {'offset': 16, 'content': ['{"val_loss": 1.8059782981872559, "val_acc": 0.21276596188545227, "epoch": 5, "trainer/global_step": 5, "_timestamp": 1727915491.426878, "_runtime": 678.0191218852997, "_step": 16}', '{"train_loss": 12.450244903564453, "train_acc": 0.1489361673593521, "epoch": 5, "trainer/global_step": 5, "_timestamp": 1727915491.440481, "_runtime": 678.0327248573303, "_step": 17}', '{"Learning Rate Scheduling": 0.012096467822971501, "trainer/global_step": 6, "_timestamp": 1727915491.441164, "_runtime": 678.0334079265594, "_step": 18}']}, 'wandb-events.jsonl': {'offset': 21, 'content': ['{"system.proc.memory.availableMB": 4675.8, "system.memory": 71.45, "system.proc.memory.rssMB": 3733.12, "system.proc.memory.percent": 22.79, "system.cpu": 44.23, "system.cpu.0.cpu_percent": 91.93, "system.cpu.1.cpu_percent": 20.36, "system.cpu.2.cpu_percent": 89.87, "system.cpu.3.cpu_percent": 23.89, "system.cpu.4.cpu_percent": 89.09, "system.cpu.5.cpu_percent": 25.46, "system.cpu.6.cpu_percent": 88.84, "system.cpu.7.cpu_percent": 28.77, "system.cpu.8.cpu_percent": 88.31, "system.cpu.9.cpu_percent": 32.59, "system.cpu.10.cpu_percent": 88.47, "system.cpu.11.cpu_percent": 42.58, "system.proc.cpu.threads": 16, "system.network.sent": 3267857.07, "system.network.recv": 18366464.0, "system.disk.\\\\.usagePercent": 10.46, "system.disk.\\\\.usageGB": 12.41, "system.disk.in": 56807.19, "system.disk.out": 62671.5, "_wandb": true, "_timestamp": 1727915504.141529, "_runtime": 690.733773}']}, 'output.log': {'offset': 76, 'content': ['2024-10-03T00:31:31.792861 \n', "ERROR 2024-10-03T00:31:32.122270 Epoch 5, global step 6: 'val_acc' was not in top 1\n"]}}, 'dropped': 0}}
+2024-10-02 20:32:44,561 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:32:44,561 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:32:44,627 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:32:44,824 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:32:49,830 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:32:54,631 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:32:54,831 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:32:59,563 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:32:59,564 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:32:59,834 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:33:04,634 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:33:04,838 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:33:09,842 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:33:14,154 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:33:14,568 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:33:14,569 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:33:14,639 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:33:14,844 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:33:19,846 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:33:24,642 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:33:24,851 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:33:28,733 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:33:29,567 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:33:29,567 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:33:30,852 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:33:34,644 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:33:35,876 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:33:38,566 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:33:38,568 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:33:38,569 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:33:38,570 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:33:38,576 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:33:38,577 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:33:38,577 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:33:38,577 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:33:38,578 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:33:38,579 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:33:38,579 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:33:38,580 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:33:38,778 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/wandb-summary.json
+2024-10-02 20:33:40,787 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:33:41,861 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:33:44,162 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:33:44,568 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:33:44,572 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:33:44,645 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:33:46,997 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:33:52,868 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:33:54,650 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:33:57,873 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:33:59,568 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:33:59,568 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:34:03,875 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:34:04,650 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:34:09,871 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:34:14,171 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:34:14,584 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:34:14,585 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:34:14,651 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:34:15,875 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:34:20,877 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:34:24,657 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:34:26,877 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:34:29,572 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:34:29,573 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:34:31,880 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:34:34,656 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:34:37,878 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:34:42,898 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:34:44,170 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:34:44,576 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:34:44,576 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:34:44,657 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:34:48,892 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:34:53,912 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:34:54,658 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:34:59,578 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:34:59,578 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:35:00,073 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:35:04,663 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:35:05,900 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:35:10,905 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:35:14,172 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:35:14,581 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:35:14,581 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:35:14,668 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:35:15,906 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:35:20,929 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:35:24,669 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:35:26,929 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:35:29,585 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:35:29,586 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:35:32,931 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:35:34,670 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:35:37,938 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:35:42,942 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:35:44,174 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:35:44,589 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:35:44,590 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:35:44,671 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:35:45,128 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:35:48,943 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:35:52,607 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:35:52,609 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:35:52,610 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:35:52,611 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:35:52,624 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:35:52,625 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:35:52,625 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:35:52,626 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:35:52,628 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:35:52,630 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:35:52,631 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:35:52,632 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:35:53,163 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/wandb-summary.json
+2024-10-02 20:35:54,636 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:35:54,671 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:35:55,171 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:35:59,631 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:35:59,645 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:35:59,785 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:36:04,686 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:36:04,942 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:36:09,943 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:36:14,181 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:36:14,594 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:36:14,594 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:36:14,673 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:36:15,942 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:36:20,945 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:36:24,676 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:36:25,951 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:36:29,596 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:36:29,596 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:36:30,956 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:36:34,674 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:36:35,957 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:36:40,970 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:36:44,187 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:36:44,601 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:36:44,601 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:36:44,678 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:36:46,969 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:36:51,973 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:36:54,682 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:36:57,970 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:36:59,602 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:36:59,603 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:37:02,975 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:37:04,680 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:37:08,978 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:37:13,980 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:37:14,189 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:37:14,605 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:37:14,605 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:37:14,685 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:37:18,982 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:37:24,687 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:37:24,979 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:37:29,605 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:37:29,606 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:37:29,981 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:37:34,689 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:37:34,981 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:37:39,986 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:37:44,190 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:37:44,606 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:37:44,607 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:37:44,696 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:37:44,989 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:37:49,992 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:37:54,696 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:37:54,993 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:37:59,605 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:37:59,606 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:38:00,994 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:38:04,704 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:38:06,010 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:38:11,021 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:38:14,196 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:38:14,611 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:38:14,612 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:38:14,698 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:38:16,193 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:38:17,312 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:38:22,009 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:38:24,705 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:38:26,255 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:38:26,257 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:38:26,258 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:38:26,260 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:38:26,269 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:38:26,270 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:38:26,270 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:38:26,270 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:38:26,272 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:38:26,272 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:38:26,272 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:38:26,273 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:38:26,340 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/wandb-summary.json
+2024-10-02 20:38:27,278 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:38:27,344 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:38:29,613 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:38:29,615 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:38:33,857 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:38:34,733 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:38:39,029 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:38:44,070 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:38:44,203 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:38:44,617 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:38:44,619 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:38:44,719 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:38:50,029 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:38:54,718 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:38:55,030 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:38:59,622 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:38:59,630 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:39:00,034 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:39:04,720 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:39:06,037 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:39:11,039 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:39:14,209 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:39:14,618 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:39:14,618 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:39:14,724 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:39:17,044 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:39:23,044 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:39:24,727 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:39:28,051 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:39:29,620 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:39:29,621 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:39:33,055 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:39:34,730 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:39:39,051 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:39:44,056 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:39:44,210 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:39:44,624 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:39:44,625 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:39:44,734 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:39:49,057 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:39:54,064 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:39:54,735 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:39:59,101 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:39:59,625 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:39:59,626 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:40:04,737 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:40:05,080 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:40:10,082 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:40:14,214 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:40:14,625 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:40:14,625 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:40:14,739 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:40:15,083 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:40:20,086 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:40:24,743 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:40:25,086 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:40:29,629 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:40:29,630 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:40:30,094 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:40:34,748 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:40:35,099 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:40:40,103 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:40:41,166 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:40:44,221 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:40:44,632 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:40:44,633 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:40:44,743 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:40:45,110 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:40:49,862 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:40:49,863 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:40:49,863 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:40:49,865 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:40:49,872 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:40:49,873 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:40:49,873 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:40:49,873 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:40:49,875 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:40:49,875 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:40:49,875 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:40:49,876 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:40:50,199 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/wandb-summary.json
+2024-10-02 20:40:51,112 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:40:51,203 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:40:52,205 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:40:54,747 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:40:56,225 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:40:59,711 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:40:59,737 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:41:02,118 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:41:04,753 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:41:08,133 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:41:14,124 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:41:14,232 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:41:14,636 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:41:14,636 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:41:14,754 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:41:20,118 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:41:24,755 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:41:25,123 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:41:29,641 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:41:29,642 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:41:30,125 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:41:34,757 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:41:35,128 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:41:40,132 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:41:44,235 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:41:44,642 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:41:44,642 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:41:44,760 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:41:45,133 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:41:50,137 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:41:54,761 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:41:55,142 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:41:59,643 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:41:59,644 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:42:00,144 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:42:04,766 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:42:05,146 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:42:10,150 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:42:14,239 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:42:14,643 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:42:14,644 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:42:14,768 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:42:15,152 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:42:20,156 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:42:24,770 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:42:25,156 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:42:29,646 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:42:29,646 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:42:30,160 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:42:34,773 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:42:35,165 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:42:40,170 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:42:44,248 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:42:44,651 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:42:44,651 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:42:44,773 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:42:45,174 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:42:50,174 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:42:54,782 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:42:55,179 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:42:59,653 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:42:59,655 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:43:00,180 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:43:01,833 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:43:04,782 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:43:05,186 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:43:09,884 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:43:09,886 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:43:09,887 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:43:09,889 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:43:09,899 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:43:09,900 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:43:09,901 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:43:09,901 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:43:09,903 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:43:09,903 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:43:09,903 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:43:09,904 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:43:10,858 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/wandb-summary.json
+2024-10-02 20:43:11,185 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:43:11,859 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:43:14,258 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:43:14,659 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:43:14,662 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:43:14,784 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:43:16,321 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:43:22,271 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:43:24,788 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:43:28,216 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:43:29,659 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:43:29,660 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:43:34,207 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:43:34,792 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:43:39,215 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:43:44,216 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:43:44,299 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:43:44,660 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:43:44,660 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:43:44,794 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:43:49,219 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:43:54,785 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:43:55,198 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:43:59,647 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:43:59,648 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:44:01,196 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:44:04,780 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:44:07,193 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:44:12,204 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:44:14,285 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:44:14,662 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:44:14,662 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:44:14,777 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:44:18,204 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:44:23,208 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:44:24,776 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:44:28,208 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:44:29,655 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:44:29,655 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:44:33,213 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:44:34,778 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:44:38,218 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:44:43,223 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:44:44,288 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:44:44,653 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:44:44,654 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:44:44,779 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:44:48,224 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:44:53,230 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:44:54,784 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:44:58,236 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:44:59,653 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:44:59,653 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:45:04,237 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:45:04,787 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:45:09,245 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:45:14,288 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:45:14,289 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:45:14,655 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:45:14,656 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:45:14,790 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:45:20,236 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:45:24,819 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:45:25,239 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:45:29,662 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 20:45:29,662 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 20:45:30,961 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:45:32,233 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:45:34,795 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:45:36,245 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:45:40,550 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:45:40,553 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:45:40,554 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:45:40,556 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:45:40,568 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: partial_history
+2024-10-02 20:45:40,569 DEBUG   SenderThread:34886 [sender.py:send():391] send: history
+2024-10-02 20:45:40,570 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: summary_record
+2024-10-02 20:45:40,570 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:45:40,617 DEBUG   SenderThread:34886 [sender.py:send():391] send: telemetry
+2024-10-02 20:45:40,634 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: check_version
+2024-10-02 20:45:40,634 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: check_version
+2024-10-02 20:45:40,836 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: server_info
+2024-10-02 20:45:40,837 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: server_info
+2024-10-02 20:45:40,901 DEBUG   SenderThread:34886 [sender.py:send():391] send: exit
+2024-10-02 20:45:40,901 INFO    SenderThread:34886 [sender.py:send_exit():598] handling exit code: 0
+2024-10-02 20:45:40,907 INFO    SenderThread:34886 [sender.py:send_exit():600] handling runtime: 1526
+2024-10-02 20:45:40,907 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:45:40,907 INFO    SenderThread:34886 [sender.py:send_exit():606] send defer
+2024-10-02 20:45:40,908 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 20:45:40,909 INFO    HandlerThread:34886 [handler.py:handle_request_defer():184] handle defer: 0
+2024-10-02 20:45:40,910 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: defer
+2024-10-02 20:45:40,910 INFO    SenderThread:34886 [sender.py:send_request_defer():622] handle sender defer: 0
+2024-10-02 20:45:40,910 INFO    SenderThread:34886 [sender.py:transition_state():626] send defer: 1
+2024-10-02 20:45:40,910 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 20:45:40,910 INFO    HandlerThread:34886 [handler.py:handle_request_defer():184] handle defer: 1
+2024-10-02 20:45:40,911 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: defer
+2024-10-02 20:45:40,911 INFO    SenderThread:34886 [sender.py:send_request_defer():622] handle sender defer: 1
+2024-10-02 20:45:40,911 INFO    SenderThread:34886 [sender.py:transition_state():626] send defer: 2
+2024-10-02 20:45:40,911 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 20:45:40,911 INFO    HandlerThread:34886 [handler.py:handle_request_defer():184] handle defer: 2
+2024-10-02 20:45:40,911 INFO    HandlerThread:34886 [system_monitor.py:finish():203] Stopping system monitor
+2024-10-02 20:45:40,913 DEBUG   SystemMonitor:34886 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-10-02 20:45:40,913 DEBUG   SystemMonitor:34886 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-10-02 20:45:40,913 INFO    HandlerThread:34886 [interfaces.py:finish():200] Joined cpu monitor
+2024-10-02 20:45:40,914 INFO    HandlerThread:34886 [interfaces.py:finish():200] Joined disk monitor
+2024-10-02 20:45:40,914 INFO    HandlerThread:34886 [interfaces.py:finish():200] Joined memory monitor
+2024-10-02 20:45:40,914 INFO    HandlerThread:34886 [interfaces.py:finish():200] Joined network monitor
+2024-10-02 20:45:40,915 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: defer
+2024-10-02 20:45:40,915 INFO    SenderThread:34886 [sender.py:send_request_defer():622] handle sender defer: 2
+2024-10-02 20:45:40,915 INFO    SenderThread:34886 [sender.py:transition_state():626] send defer: 3
+2024-10-02 20:45:40,915 DEBUG   SenderThread:34886 [sender.py:send():391] send: stats
+2024-10-02 20:45:40,915 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 20:45:40,915 INFO    HandlerThread:34886 [handler.py:handle_request_defer():184] handle defer: 3
+2024-10-02 20:45:40,916 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: defer
+2024-10-02 20:45:40,916 INFO    SenderThread:34886 [sender.py:send_request_defer():622] handle sender defer: 3
+2024-10-02 20:45:40,916 INFO    SenderThread:34886 [sender.py:transition_state():626] send defer: 4
+2024-10-02 20:45:40,916 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 20:45:40,916 INFO    HandlerThread:34886 [handler.py:handle_request_defer():184] handle defer: 4
+2024-10-02 20:45:40,918 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: defer
+2024-10-02 20:45:40,918 INFO    SenderThread:34886 [sender.py:send_request_defer():622] handle sender defer: 4
+2024-10-02 20:45:40,918 INFO    SenderThread:34886 [sender.py:transition_state():626] send defer: 5
+2024-10-02 20:45:40,918 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 20:45:40,918 INFO    HandlerThread:34886 [handler.py:handle_request_defer():184] handle defer: 5
+2024-10-02 20:45:40,919 DEBUG   SenderThread:34886 [sender.py:send():391] send: summary
+2024-10-02 20:45:40,919 INFO    SenderThread:34886 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 20:45:40,920 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: defer
+2024-10-02 20:45:40,920 INFO    SenderThread:34886 [sender.py:send_request_defer():622] handle sender defer: 5
+2024-10-02 20:45:40,920 INFO    SenderThread:34886 [sender.py:transition_state():626] send defer: 6
+2024-10-02 20:45:40,920 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 20:45:40,920 INFO    HandlerThread:34886 [handler.py:handle_request_defer():184] handle defer: 6
+2024-10-02 20:45:40,920 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: defer
+2024-10-02 20:45:40,920 INFO    SenderThread:34886 [sender.py:send_request_defer():622] handle sender defer: 6
+2024-10-02 20:45:40,928 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 20:45:41,024 INFO    SenderThread:34886 [sender.py:transition_state():626] send defer: 7
+2024-10-02 20:45:41,024 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 20:45:41,024 INFO    HandlerThread:34886 [handler.py:handle_request_defer():184] handle defer: 7
+2024-10-02 20:45:41,024 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: defer
+2024-10-02 20:45:41,024 INFO    SenderThread:34886 [sender.py:send_request_defer():622] handle sender defer: 7
+2024-10-02 20:45:41,271 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/wandb-summary.json
+2024-10-02 20:45:41,271 INFO    Thread-12 :34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/config.yaml
+2024-10-02 20:45:41,896 INFO    SenderThread:34886 [sender.py:transition_state():626] send defer: 8
+2024-10-02 20:45:41,897 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 20:45:41,897 INFO    HandlerThread:34886 [handler.py:handle_request_defer():184] handle defer: 8
+2024-10-02 20:45:41,897 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: defer
+2024-10-02 20:45:41,897 INFO    SenderThread:34886 [sender.py:send_request_defer():622] handle sender defer: 8
+2024-10-02 20:45:41,898 INFO    SenderThread:34886 [sender.py:transition_state():626] send defer: 9
+2024-10-02 20:45:41,898 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 20:45:41,898 INFO    HandlerThread:34886 [handler.py:handle_request_defer():184] handle defer: 9
+2024-10-02 20:45:41,899 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: defer
+2024-10-02 20:45:41,899 INFO    SenderThread:34886 [sender.py:send_request_defer():622] handle sender defer: 9
+2024-10-02 20:45:41,899 INFO    SenderThread:34886 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-10-02 20:45:41,906 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-02 20:45:42,274 INFO    SenderThread:34886 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:45:42,276 INFO    SenderThread:34886 [dir_watcher.py:finish():388] scan: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files
+2024-10-02 20:45:42,277 INFO    SenderThread:34886 [dir_watcher.py:finish():402] scan save: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/requirements.txt requirements.txt
+2024-10-02 20:45:42,279 INFO    SenderThread:34886 [dir_watcher.py:finish():402] scan save: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log output.log
+2024-10-02 20:45:42,286 INFO    SenderThread:34886 [dir_watcher.py:finish():402] scan save: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/config.yaml config.yaml
+2024-10-02 20:45:42,289 INFO    SenderThread:34886 [dir_watcher.py:finish():402] scan save: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/wandb-summary.json wandb-summary.json
+2024-10-02 20:45:42,291 INFO    SenderThread:34886 [dir_watcher.py:finish():402] scan save: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/wandb-metadata.json wandb-metadata.json
+2024-10-02 20:45:42,292 INFO    SenderThread:34886 [sender.py:transition_state():626] send defer: 10
+2024-10-02 20:45:42,292 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: poll_exit
+2024-10-02 20:45:42,295 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 20:45:42,295 INFO    HandlerThread:34886 [handler.py:handle_request_defer():184] handle defer: 10
+2024-10-02 20:45:42,296 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: defer
+2024-10-02 20:45:42,296 INFO    SenderThread:34886 [sender.py:send_request_defer():622] handle sender defer: 10
+2024-10-02 20:45:42,296 INFO    SenderThread:34886 [file_pusher.py:finish():169] shutting down file pusher
+2024-10-02 20:45:42,570 INFO    wandb-upload_0:34886 [upload_job.py:push():130] Uploaded file /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/requirements.txt
+2024-10-02 20:45:42,572 INFO    wandb-upload_3:34886 [upload_job.py:push():130] Uploaded file /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/wandb-summary.json
+2024-10-02 20:45:42,572 INFO    wandb-upload_1:34886 [upload_job.py:push():130] Uploaded file /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/output.log
+2024-10-02 20:45:42,574 INFO    wandb-upload_2:34886 [upload_job.py:push():130] Uploaded file /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/files/config.yaml
+2024-10-02 20:45:42,779 INFO    Thread-11 (_thread_body):34886 [sender.py:transition_state():626] send defer: 11
+2024-10-02 20:45:42,779 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 20:45:42,779 INFO    HandlerThread:34886 [handler.py:handle_request_defer():184] handle defer: 11
+2024-10-02 20:45:42,779 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: defer
+2024-10-02 20:45:42,779 INFO    SenderThread:34886 [sender.py:send_request_defer():622] handle sender defer: 11
+2024-10-02 20:45:42,779 INFO    SenderThread:34886 [file_pusher.py:join():175] waiting for file pusher
+2024-10-02 20:45:42,780 INFO    SenderThread:34886 [sender.py:transition_state():626] send defer: 12
+2024-10-02 20:45:42,780 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 20:45:42,780 INFO    HandlerThread:34886 [handler.py:handle_request_defer():184] handle defer: 12
+2024-10-02 20:45:42,780 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: defer
+2024-10-02 20:45:42,780 INFO    SenderThread:34886 [sender.py:send_request_defer():622] handle sender defer: 12
+2024-10-02 20:45:42,780 INFO    SenderThread:34886 [file_stream.py:finish():601] file stream finish called
+2024-10-02 20:45:42,907 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-02 20:45:43,286 INFO    SenderThread:34886 [file_stream.py:finish():605] file stream finish is done
+2024-10-02 20:45:43,286 INFO    SenderThread:34886 [sender.py:transition_state():626] send defer: 13
+2024-10-02 20:45:43,286 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: poll_exit
+2024-10-02 20:45:43,286 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 20:45:43,286 INFO    HandlerThread:34886 [handler.py:handle_request_defer():184] handle defer: 13
+2024-10-02 20:45:43,287 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: defer
+2024-10-02 20:45:43,287 INFO    SenderThread:34886 [sender.py:send_request_defer():622] handle sender defer: 13
+2024-10-02 20:45:43,287 INFO    SenderThread:34886 [sender.py:transition_state():626] send defer: 14
+2024-10-02 20:45:43,288 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 20:45:43,288 INFO    HandlerThread:34886 [handler.py:handle_request_defer():184] handle defer: 14
+2024-10-02 20:45:43,288 DEBUG   SenderThread:34886 [sender.py:send():391] send: final
+2024-10-02 20:45:43,288 DEBUG   SenderThread:34886 [sender.py:send():391] send: footer
+2024-10-02 20:45:43,288 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: defer
+2024-10-02 20:45:43,288 INFO    SenderThread:34886 [sender.py:send_request_defer():622] handle sender defer: 14
+2024-10-02 20:45:43,289 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-02 20:45:43,289 DEBUG   SenderThread:34886 [sender.py:send_request():418] send_request: poll_exit
+2024-10-02 20:45:43,290 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 20:45:43,291 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: get_summary
+2024-10-02 20:45:43,291 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: sampled_history
+2024-10-02 20:45:43,301 DEBUG   HandlerThread:34886 [handler.py:handle_request():158] handle_request: shutdown
+2024-10-02 20:45:43,301 INFO    HandlerThread:34886 [handler.py:finish():884] shutting down handler
+2024-10-02 20:45:44,292 INFO    WriterThread:34886 [datastore.py:close():296] close: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_202013-dghlitwo/run-dghlitwo.wandb
+2024-10-02 20:45:44,292 INFO    SenderThread:34886 [sender.py:finish():1631] shutting down sender
+2024-10-02 20:45:44,292 INFO    SenderThread:34886 [file_pusher.py:finish():169] shutting down file pusher
+2024-10-02 20:45:44,292 INFO    SenderThread:34886 [file_pusher.py:join():175] waiting for file pusher

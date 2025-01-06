@@ -1,0 +1,28 @@
+DataModule Loaded: <data_setup.DataModule.DataModule object at 0x1255c6b60>
+Model Loaded: EEGNetv4(
+  (loss): NLLLoss()
+  (acc): MulticlassAccuracy()
+  (ensuredims): Ensure4d()
+  (dimshuffle): Expression(expression=_transpose_to_b_1_c_0)
+  (conv_temporal): Conv2d(1, 16, kernel_size=(1, 64), stride=(1, 1), padding=(0, 32), bias=False)
+  (bnorm_temporal): BatchNorm2d(16, eps=0.001, momentum=0.01, affine=True, track_running_stats=True)
+  (conv_spatial): Conv2dWithConstraint(16, 32, kernel_size=(64, 1), stride=(1, 1), groups=16, bias=False)
+  (bnorm_1): BatchNorm2d(32, eps=0.001, momentum=0.1, affine=True, track_running_stats=True)
+  (elu_1): Expression(expression=elu)
+  (pool_1): MaxPool2d(kernel_size=(1, 4), stride=(1, 4), padding=0, dilation=1, ceil_mode=False)
+  (drop_1): Dropout(p=0.25, inplace=False)
+  (conv_separable_depth): Conv2d(32, 32, kernel_size=(1, 16), stride=(1, 1), padding=(0, 8), groups=32, bias=False)
+  (conv_separable_point): Conv2d(32, 32, kernel_size=(1, 1), stride=(1, 1), bias=False)
+  (bnorm_2): BatchNorm2d(32, eps=0.001, momentum=0.1, affine=True, track_running_stats=True)
+  (elu_2): Expression(expression=elu)
+  (pool_2): MaxPool2d(kernel_size=(1, 8), stride=(1, 8), padding=0, dilation=1, ceil_mode=False)
+  (drop_2): Dropout(p=0.25, inplace=False)
+  (conv_classifier): Conv2d(32, 6, kernel_size=(1, 128), stride=(1, 1))
+  (softmax): LogSoftmax(dim=1)
+  (permute_back): Expression(expression=_transpose_1_0)
+  (squeeze): Expression(expression=squeeze_final_output)
+)
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/pytorch_lightning/loggers/wandb.py:396: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.

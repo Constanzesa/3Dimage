@@ -1,0 +1,76 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.12
+    cli_version: 0.17.8
+    framework: huggingface
+    huggingface_version: 4.44.2
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1727476531
+    t:
+      1:
+      - 1
+      - 9
+      - 11
+      - 41
+      - 49
+      - 55
+      - 103
+      2:
+      - 1
+      - 9
+      - 11
+      - 41
+      - 49
+      - 55
+      - 103
+      3:
+      - 2
+      - 23
+      - 37
+      4: 3.10.12
+      5: 0.17.8
+      6: 4.44.2
+      8:
+      - 5
+      13: darwin-x86_64
+datamodule:
+  desc: null
+  value:
+    batch_size: 64
+    data_dir: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/Segmented_data/train
+    num_workers: 0
+    seed: 42
+    val_run: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/Segmented_data/val
+final_model:
+  desc: null
+  value: false
+fine_tuning:
+  desc: null
+  value: false
+model:
+  desc: null
+  value:
+    D: 2
+    F1: 16
+    drop_prob: 0.25
+    final_conv_length: auto
+    in_chans: 64
+    input_window_samples: 4096
+    kernel_length: 64
+    lr: 0.013872202550617264
+    momentum: 0.1
+    n_classes: 6
+    one_cycle_lr: true
+    pool_mode: max
+    weight_decay: 0.0052736627862074075
+model_name:
+  desc: null
+  value: EEGNET
+trainer:
+  desc: null
+  value:
+    max_epochs: 30

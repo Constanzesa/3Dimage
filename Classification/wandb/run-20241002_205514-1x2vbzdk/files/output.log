@@ -1,0 +1,181 @@
+DataModule Loaded: <data_setup.DataModule.DataModule object at 0x131e27e80>
+Model Loaded: EEGNetv4(
+  (loss): NLLLoss()
+  (acc): MulticlassAccuracy()
+  (ensuredims): Ensure4d()
+  (dimshuffle): Expression(expression=_transpose_to_b_1_c_0)
+  (conv_temporal): Conv2d(1, 16, kernel_size=(1, 64), stride=(1, 1), padding=(0, 32), bias=False)
+  (bnorm_temporal): BatchNorm2d(16, eps=0.001, momentum=0.01, affine=True, track_running_stats=True)
+  (conv_spatial): Conv2dWithConstraint(16, 32, kernel_size=(64, 1), stride=(1, 1), groups=16, bias=False)
+  (bnorm_1): BatchNorm2d(32, eps=0.001, momentum=0.1, affine=True, track_running_stats=True)
+  (elu_1): Expression(expression=elu)
+  (pool_1): MaxPool2d(kernel_size=(1, 4), stride=(1, 4), padding=0, dilation=1, ceil_mode=False)
+  (drop_1): Dropout(p=0.25, inplace=False)
+  (conv_separable_depth): Conv2d(32, 32, kernel_size=(1, 16), stride=(1, 1), padding=(0, 8), groups=32, bias=False)
+  (conv_separable_point): Conv2d(32, 32, kernel_size=(1, 1), stride=(1, 1), bias=False)
+  (bnorm_2): BatchNorm2d(32, eps=0.001, momentum=0.1, affine=True, track_running_stats=True)
+  (elu_2): Expression(expression=elu)
+  (pool_2): MaxPool2d(kernel_size=(1, 8), stride=(1, 8), padding=0, dilation=1, ceil_mode=False)
+  (drop_2): Dropout(p=0.25, inplace=False)
+  (conv_classifier): Conv2d(32, 6, kernel_size=(1, 128), stride=(1, 1))
+  (softmax): LogSoftmax(dim=1)
+  (permute_back): Expression(expression=_transpose_1_0)
+  (squeeze): Expression(expression=squeeze_final_output)
+)
+Data shape: torch.Size([374, 64, 4096]), Labels shape: torch.Size([47])
+Data shape: torch.Size([47, 64, 4096]), Labels shape: torch.Size([47])
+Sanity Checking DataLoader 0:   0%|                                                                                                                                                                                              | 0/1 [00:00<?, ?it/s]
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/pytorch_lightning/loggers/wandb.py:396: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+   | Name                 | Type                 | Params | Mode
+-----------------------------------------------------------------------
+0  | loss                 | NLLLoss              | 0      | train
+1  | acc                  | MulticlassAccuracy   | 0      | train
+2  | ensuredims           | Ensure4d             | 0      | train
+3  | dimshuffle           | Expression           | 0      | train
+4  | conv_temporal        | Conv2d               | 1.0 K  | train
+5  | bnorm_temporal       | BatchNorm2d          | 32     | train
+6  | conv_spatial         | Conv2dWithConstraint | 2.0 K  | train
+7  | bnorm_1              | BatchNorm2d          | 64     | train
+8  | elu_1                | Expression           | 0      | train
+9  | pool_1               | MaxPool2d            | 0      | train
+10 | drop_1               | Dropout              | 0      | train
+11 | conv_separable_depth | Conv2d               | 512    | train
+12 | conv_separable_point | Conv2d               | 1.0 K  | train
+13 | bnorm_2              | BatchNorm2d          | 64     | train
+14 | elu_2                | Expression           | 0      | train
+15 | pool_2               | MaxPool2d            | 0      | train
+16 | drop_2               | Dropout              | 0      | train
+17 | conv_classifier      | Conv2d               | 24.6 K | train
+18 | softmax              | LogSoftmax           | 0      | train
+19 | permute_back         | Expression           | 0      | train
+20 | squeeze              | Expression           | 0      | train
+-----------------------------------------------------------------------
+29.4 K    Trainable params
+0         Non-trainable params
+29.4 K    Total params
+0.117     Total estimated model params size (MB)
+21        Modules in train mode
+0         Modules in eval mode
+
+Epoch 0:   0%|                                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]
+/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:424: The 'train_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=11` in the `DataLoader` to improve performance.
+Epoch 0: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:19<00:00,  0.05it/s, v_num=bzdk]
+Validation DataLoader 0:   0%|                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]
+Metric val_acc improved. New best score: 0.213
+
+Epoch 1: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:19<00:00,  0.05it/s, v_num=bzdk, val_loss=1.790, val_acc=0.213, train_loss=3.210, train_acc=0.170]
+Validation DataLoader 0:   0%|                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]
+Metric val_acc improved by 0.043 >= min_delta = 0.0. New best score: 0.255
+
+Epoch 2: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:20<00:00,  0.05it/s, v_num=bzdk, val_loss=1.790, val_acc=0.255, train_loss=2.620, train_acc=0.255]
+Validation DataLoader 0:   0%|                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]
+
+Epoch 3: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:20<00:00,  0.05it/s, v_num=bzdk, val_loss=1.800, val_acc=0.191, train_loss=3.140, train_acc=0.255]
+Validation DataLoader 0:   0%|                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]
+
+Epoch 3, global step 4: 'val_acc' was not in top 1
+[34m[1mwandb[39m[22m: Ctrl + C detected. Stopping sweep.
+Traceback (most recent call last):
+  File "/Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/train.py", line 145, in <module>
+    sweep_id = wandb.sweep(sweep_config, project=sweep_config["name"]) # Init sweep
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/wandb/sdk/wandb_sweep.py", line 86, in sweep
+    sweep_id, warnings = api.upsert_sweep(sweep, prior_runs=prior_runs)
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/wandb/apis/internal.py", line 133, in upsert_sweep
+    return self.api.upsert_sweep(*args, **kwargs)
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 3210, in upsert_sweep
+    response = self.gql(
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 317, in gql
+    ret = self._retry_gql(
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 345, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/wandb/sdk/lib/gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/requests/sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/urllib3/connection.py", line 464, in getresponse
+    httplib_response = super().getresponse()
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/ssl.py", line 1274, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/ssl.py", line 1130, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/train.py", line 145, in <module>
+    sweep_id = wandb.sweep(sweep_config, project=sweep_config["name"]) # Init sweep
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/wandb/sdk/wandb_sweep.py", line 86, in sweep
+    sweep_id, warnings = api.upsert_sweep(sweep, prior_runs=prior_runs)
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/wandb/apis/internal.py", line 133, in upsert_sweep
+    return self.api.upsert_sweep(*args, **kwargs)
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 3210, in upsert_sweep
+    response = self.gql(
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 317, in gql
+    ret = self._retry_gql(
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 345, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/wandb/sdk/lib/gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/requests/sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/urllib3/connection.py", line 464, in getresponse
+    httplib_response = super().getresponse()
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/http/client.py", line 1375, in getresponse
+    response.begin()
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/ssl.py", line 1274, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/ssl.py", line 1130, in read
+    return self._sslobj.read(len, buffer)
+
+Epoch 4:   0%|                                                                                                                                     | 0/1 [00:00<?, ?it/s, v_num=bzdk, val_loss=1.820, val_acc=0.170, train_loss=3.470, train_acc=0.191]Using config: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/configs/final/P001/EEGNET_P001.yaml

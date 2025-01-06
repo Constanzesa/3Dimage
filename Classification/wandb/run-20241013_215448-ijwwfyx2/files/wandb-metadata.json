@@ -1,0 +1,45 @@
+{
+    "os": "macOS-14.5-x86_64-i386-64bit",
+    "python": "3.10.12",
+    "heartbeatAt": "2024-10-14T01:54:48.825433",
+    "startedAt": "2024-10-14T01:54:48.432083",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/train.py",
+    "codePathLocal": "train.py",
+    "codePath": "Generation/pytorch/train.py",
+    "git": {
+        "remote": "https://github.com/AttentivU/imagery2024.git",
+        "commit": "ce77bf364fb57bd42695e1aa3232126892c81578"
+    },
+    "email": "calbrecht@ethz.ch",
+    "root": "/Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024",
+    "host": "C02DV3PNMD6R.tld",
+    "username": "arnavkapur",
+    "executable": "/Users/arnavkapur/.pyenv/versions/3.10.12/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2600,
+        "min": 2600,
+        "max": 2600
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2600,
+            "min": 2600,
+            "max": 2600
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 465.62699127197266,
+            "used": 12.405502319335938
+        }
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

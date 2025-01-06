@@ -1,0 +1,99 @@
+DataModule Loaded: <data_setup.DataModule.DataModule object at 0x126cf5a50>
+Model Loaded: EEGNetv4(
+  (loss): NLLLoss()
+  (acc): MulticlassAccuracy()
+  (ensuredims): Ensure4d()
+  (dimshuffle): Expression(expression=_transpose_to_b_1_c_0)
+  (conv_temporal): Conv2d(1, 32, kernel_size=(1, 64), stride=(1, 1), padding=(0, 32), bias=False)
+  (bnorm_temporal): BatchNorm2d(32, eps=0.001, momentum=0.01, affine=True, track_running_stats=True)
+  (conv_spatial): Conv2dWithConstraint(32, 64, kernel_size=(64, 1), stride=(1, 1), groups=32, bias=False)
+  (bnorm_1): BatchNorm2d(64, eps=0.001, momentum=0.1, affine=True, track_running_stats=True)
+  (elu_1): Expression(expression=elu)
+  (pool_1): MaxPool2d(kernel_size=(1, 4), stride=(1, 4), padding=0, dilation=1, ceil_mode=False)
+  (drop_1): Dropout(p=0.25, inplace=False)
+  (conv_separable_depth): Conv2d(64, 64, kernel_size=(1, 16), stride=(1, 1), padding=(0, 8), groups=64, bias=False)
+  (conv_separable_point): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+  (bnorm_2): BatchNorm2d(64, eps=0.001, momentum=0.1, affine=True, track_running_stats=True)
+  (elu_2): Expression(expression=elu)
+  (pool_2): MaxPool2d(kernel_size=(1, 8), stride=(1, 8), padding=0, dilation=1, ceil_mode=False)
+  (drop_2): Dropout(p=0.25, inplace=False)
+  (conv_classifier): Conv2d(64, 6, kernel_size=(1, 128), stride=(1, 1))
+  (softmax): LogSoftmax(dim=1)
+  (permute_back): Expression(expression=_transpose_1_0)
+  (squeeze): Expression(expression=squeeze_final_output)
+)
+Data shape: torch.Size([374, 64, 4096]), Labels shape: torch.Size([47])
+Data shape: torch.Size([47, 64, 4096]), Labels shape: torch.Size([47])
+Sanity Checking DataLoader 0:   0%|                                                                                                                                                                                              | 0/1 [00:00<?, ?it/s]
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/pytorch_lightning/loggers/wandb.py:396: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+   | Name                 | Type                 | Params | Mode
+-----------------------------------------------------------------------
+0  | loss                 | NLLLoss              | 0      | train
+1  | acc                  | MulticlassAccuracy   | 0      | train
+2  | ensuredims           | Ensure4d             | 0      | train
+3  | dimshuffle           | Expression           | 0      | train
+4  | conv_temporal        | Conv2d               | 2.0 K  | train
+5  | bnorm_temporal       | BatchNorm2d          | 64     | train
+6  | conv_spatial         | Conv2dWithConstraint | 4.1 K  | train
+7  | bnorm_1              | BatchNorm2d          | 128    | train
+8  | elu_1                | Expression           | 0      | train
+9  | pool_1               | MaxPool2d            | 0      | train
+10 | drop_1               | Dropout              | 0      | train
+11 | conv_separable_depth | Conv2d               | 1.0 K  | train
+12 | conv_separable_point | Conv2d               | 4.1 K  | train
+13 | bnorm_2              | BatchNorm2d          | 128    | train
+14 | elu_2                | Expression           | 0      | train
+15 | pool_2               | MaxPool2d            | 0      | train
+16 | drop_2               | Dropout              | 0      | train
+17 | conv_classifier      | Conv2d               | 49.2 K | train
+18 | softmax              | LogSoftmax           | 0      | train
+19 | permute_back         | Expression           | 0      | train
+20 | squeeze              | Expression           | 0      | train
+-----------------------------------------------------------------------
+60.7 K    Trainable params
+0         Non-trainable params
+60.7 K    Total params
+0.243     Total estimated model params size (MB)
+21        Modules in train mode
+0         Modules in eval mode
+
+Epoch 0:   0%|                                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]
+/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:424: The 'train_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=11` in the `DataLoader` to improve performance.
+Epoch 0: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:43<00:00,  0.02it/s, v_num=632d]
+
+Validation DataLoader 0:   0%|                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]
+Metric val_acc improved. New best score: 0.234
+Epoch 1: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:40<00:00,  0.02it/s, v_num=632d, val_loss=1.790, val_acc=0.234, train_loss=3.950, train_acc=0.0638]
+
+Validation DataLoader 0:   0%|                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]
+Epoch 2: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:42<00:00,  0.02it/s, v_num=632d, val_loss=1.790, val_acc=0.213, train_loss=2.690, train_acc=0.255]
+
+Validation DataLoader 0:   0%|                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]
+Epoch 3: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:40<00:00,  0.02it/s, v_num=632d, val_loss=1.790, val_acc=0.170, train_loss=3.630, train_acc=0.213]
+Validation DataLoader 0:   0%|                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]
+
+Epoch 4: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:41<00:00,  0.02it/s, v_num=632d, val_loss=1.800, val_acc=0.149, train_loss=2.160, train_acc=0.319]
+Validation DataLoader 0:   0%|                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]
+
+Epoch 5: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:45<00:00,  0.02it/s, v_num=632d, val_loss=1.800, val_acc=0.0851, train_loss=3.380, train_acc=0.213]
+
+Validation DataLoader 0:   0%|                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]
+Metric val_acc improved by 0.043 >= min_delta = 0.0. New best score: 0.277
+
+Epoch 6: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:39<00:00,  0.03it/s, v_num=632d, val_loss=1.780, val_acc=0.277, train_loss=2.750, train_acc=0.340]
+Validation DataLoader 0:   0%|                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]
+
+Epoch 7: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:39<00:00,  0.03it/s, v_num=632d, val_loss=1.780, val_acc=0.213, train_loss=4.950, train_acc=0.489]
+
+Validation DataLoader 0:   0%|                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]
+Epoch 8: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:43<00:00,  0.02it/s, v_num=632d, val_loss=1.780, val_acc=0.191, train_loss=5.230, train_acc=0.404]
+Validation DataLoader 0:   0%|                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]
+
+Epoch 8, global step 9: 'val_acc' was not in top 1
+[34m[1mwandb[39m[22m: Ctrl + C detected. Stopping sweep.
+Epoch 9:   0%|                                                                                                                                     | 0/1 [00:00<?, ?it/s, v_num=632d, val_loss=1.780, val_acc=0.191, train_loss=2.590, train_acc=0.511]Using config: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/configs/final/P001/EEGNET_P001.yaml
+Create sweep with ID: 4u00xs6m
+Sweep URL: https://wandb.ai/constanzealbrecht-eth-z-rich/EEGNet_P001_final/sweeps/4u00xs6m

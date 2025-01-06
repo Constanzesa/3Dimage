@@ -1,0 +1,168 @@
+2024-10-02 21:08:21,380 INFO    StreamThr :36674 [internal.py:wandb_internal():85] W&B internal server running at pid: 36674, started at: 2024-10-02 21:08:21.379491
+2024-10-02 21:08:21,381 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: status
+2024-10-02 21:08:21,394 INFO    WriterThread:36674 [datastore.py:open_for_write():87] open: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_210821-o3i90gth/run-o3i90gth.wandb
+2024-10-02 21:08:21,395 DEBUG   SenderThread:36674 [sender.py:send():391] send: header
+2024-10-02 21:08:21,427 DEBUG   SenderThread:36674 [sender.py:send():391] send: run
+2024-10-02 21:08:21,595 INFO    SenderThread:36674 [dir_watcher.py:__init__():211] watching files in: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_210821-o3i90gth/files
+2024-10-02 21:08:21,595 INFO    SenderThread:36674 [sender.py:_start_run_threads():1200] run started: o3i90gth with start time 1727917701.37906
+2024-10-02 21:08:21,619 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: run_start
+2024-10-02 21:08:21,633 DEBUG   HandlerThread:36674 [system_info.py:__init__():26] System info init
+2024-10-02 21:08:21,633 DEBUG   HandlerThread:36674 [system_info.py:__init__():41] System info init done
+2024-10-02 21:08:21,633 INFO    HandlerThread:36674 [system_monitor.py:start():194] Starting system monitor
+2024-10-02 21:08:21,633 INFO    SystemMonitor:36674 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-10-02 21:08:21,634 INFO    HandlerThread:36674 [system_monitor.py:probe():214] Collecting system info
+2024-10-02 21:08:21,635 INFO    SystemMonitor:36674 [interfaces.py:start():188] Started cpu monitoring
+2024-10-02 21:08:21,635 DEBUG   HandlerThread:36674 [system_info.py:probe():152] Probing system
+2024-10-02 21:08:21,637 INFO    SystemMonitor:36674 [interfaces.py:start():188] Started disk monitoring
+2024-10-02 21:08:21,673 INFO    SystemMonitor:36674 [interfaces.py:start():188] Started memory monitoring
+2024-10-02 21:08:21,674 INFO    SystemMonitor:36674 [interfaces.py:start():188] Started network monitoring
+2024-10-02 21:08:21,681 DEBUG   HandlerThread:36674 [system_info.py:_probe_git():137] Probing git
+2024-10-02 21:08:21,721 DEBUG   HandlerThread:36674 [system_info.py:_probe_git():145] Probing git done
+2024-10-02 21:08:21,721 DEBUG   HandlerThread:36674 [system_info.py:probe():200] Probing system done
+2024-10-02 21:08:21,721 DEBUG   HandlerThread:36674 [system_monitor.py:probe():223] {'os': 'macOS-14.5-x86_64-i386-64bit', 'python': '3.10.12', 'heartbeatAt': '2024-10-03T01:08:21.637799', 'startedAt': '2024-10-03T01:08:21.365135', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/train.py', 'codePathLocal': 'train.py', 'codePath': 'Generation/pytorch/train.py', 'git': {'remote': 'https://github.com/AttentivU/imagery2024.git', 'commit': 'ed427bd2305bdf63c8fec2141bd28d1a8ae5e48d'}, 'email': 'calbrecht@ethz.ch', 'root': '/Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024', 'host': 'C02DV3PNMD6R.tld', 'username': 'arnavkapur', 'executable': '/Users/arnavkapur/.pyenv/versions/3.10.12/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2600, 'min': 2600, 'max': 2600}, 'cpu_freq_per_core': [{'current': 2600, 'min': 2600, 'max': 2600}], 'disk': {'/': {'total': 465.62699127197266, 'used': 12.405502319335938}}, 'memory': {'total': 16.0}}
+2024-10-02 21:08:21,721 INFO    HandlerThread:36674 [system_monitor.py:probe():224] Finished collecting system info
+2024-10-02 21:08:21,721 INFO    HandlerThread:36674 [system_monitor.py:probe():227] Publishing system info
+2024-10-02 21:08:21,722 INFO    HandlerThread:36674 [system_monitor.py:probe():229] Finished publishing system info
+2024-10-02 21:08:21,736 DEBUG   SenderThread:36674 [sender.py:send():391] send: files
+2024-10-02 21:08:21,737 INFO    SenderThread:36674 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2024-10-02 21:08:22,043 INFO    wandb-upload_0:36674 [upload_job.py:push():130] Uploaded file /var/folders/w2/bjrs7bh539701pd5yx65p_cc0000gp/T/tmpnuvd2yy5wandb/yv4vgbp7-wandb-metadata.json
+2024-10-02 21:08:22,099 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: python_packages
+2024-10-02 21:08:22,099 DEBUG   SenderThread:36674 [sender.py:send_request():418] send_request: python_packages
+2024-10-02 21:08:22,101 DEBUG   SenderThread:36674 [sender.py:send():391] send: telemetry
+2024-10-02 21:08:22,102 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: stop_status
+2024-10-02 21:08:22,102 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 21:08:22,103 DEBUG   SenderThread:36674 [sender.py:send_request():418] send_request: stop_status
+2024-10-02 21:08:22,599 INFO    Thread-12 :36674 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_210821-o3i90gth/files/output.log
+2024-10-02 21:08:22,599 INFO    Thread-12 :36674 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_210821-o3i90gth/files/wandb-metadata.json
+2024-10-02 21:08:22,600 INFO    Thread-12 :36674 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_210821-o3i90gth/files/requirements.txt
+2024-10-02 21:08:23,108 DEBUG   SenderThread:36674 [sender.py:send():391] send: telemetry
+2024-10-02 21:08:23,108 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: check_version
+2024-10-02 21:08:23,108 DEBUG   SenderThread:36674 [sender.py:send_request():418] send_request: check_version
+2024-10-02 21:08:23,172 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: server_info
+2024-10-02 21:08:23,173 DEBUG   SenderThread:36674 [sender.py:send_request():418] send_request: server_info
+2024-10-02 21:08:23,235 DEBUG   SenderThread:36674 [sender.py:send():391] send: exit
+2024-10-02 21:08:23,235 INFO    SenderThread:36674 [sender.py:send_exit():598] handling exit code: 1
+2024-10-02 21:08:23,236 INFO    SenderThread:36674 [sender.py:send_exit():600] handling runtime: 1
+2024-10-02 21:08:23,236 INFO    SenderThread:36674 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 21:08:23,237 INFO    SenderThread:36674 [sender.py:send_exit():606] send defer
+2024-10-02 21:08:23,237 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 21:08:23,237 INFO    HandlerThread:36674 [handler.py:handle_request_defer():184] handle defer: 0
+2024-10-02 21:08:23,237 DEBUG   SenderThread:36674 [sender.py:send_request():418] send_request: defer
+2024-10-02 21:08:23,237 INFO    SenderThread:36674 [sender.py:send_request_defer():622] handle sender defer: 0
+2024-10-02 21:08:23,237 INFO    SenderThread:36674 [sender.py:transition_state():626] send defer: 1
+2024-10-02 21:08:23,238 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 21:08:23,238 INFO    HandlerThread:36674 [handler.py:handle_request_defer():184] handle defer: 1
+2024-10-02 21:08:23,238 DEBUG   SenderThread:36674 [sender.py:send_request():418] send_request: defer
+2024-10-02 21:08:23,238 INFO    SenderThread:36674 [sender.py:send_request_defer():622] handle sender defer: 1
+2024-10-02 21:08:23,238 INFO    SenderThread:36674 [sender.py:transition_state():626] send defer: 2
+2024-10-02 21:08:23,238 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 21:08:23,238 INFO    HandlerThread:36674 [handler.py:handle_request_defer():184] handle defer: 2
+2024-10-02 21:08:23,238 INFO    HandlerThread:36674 [system_monitor.py:finish():203] Stopping system monitor
+2024-10-02 21:08:23,239 DEBUG   SystemMonitor:36674 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-10-02 21:08:23,239 INFO    HandlerThread:36674 [interfaces.py:finish():200] Joined cpu monitor
+2024-10-02 21:08:23,239 DEBUG   SystemMonitor:36674 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-10-02 21:08:23,240 DEBUG   SystemMonitor:36674 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-10-02 21:08:23,239 INFO    HandlerThread:36674 [interfaces.py:finish():200] Joined disk monitor
+2024-10-02 21:08:23,240 INFO    HandlerThread:36674 [interfaces.py:finish():200] Joined memory monitor
+2024-10-02 21:08:23,241 INFO    HandlerThread:36674 [interfaces.py:finish():200] Joined network monitor
+2024-10-02 21:08:23,241 DEBUG   SenderThread:36674 [sender.py:send_request():418] send_request: defer
+2024-10-02 21:08:23,241 INFO    SenderThread:36674 [sender.py:send_request_defer():622] handle sender defer: 2
+2024-10-02 21:08:23,241 INFO    SenderThread:36674 [sender.py:transition_state():626] send defer: 3
+2024-10-02 21:08:23,241 DEBUG   SenderThread:36674 [sender.py:send():391] send: stats
+2024-10-02 21:08:23,242 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 21:08:23,242 INFO    HandlerThread:36674 [handler.py:handle_request_defer():184] handle defer: 3
+2024-10-02 21:08:23,242 DEBUG   SenderThread:36674 [sender.py:send_request():418] send_request: defer
+2024-10-02 21:08:23,242 INFO    SenderThread:36674 [sender.py:send_request_defer():622] handle sender defer: 3
+2024-10-02 21:08:23,242 INFO    SenderThread:36674 [sender.py:transition_state():626] send defer: 4
+2024-10-02 21:08:23,242 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 21:08:23,242 INFO    HandlerThread:36674 [handler.py:handle_request_defer():184] handle defer: 4
+2024-10-02 21:08:23,243 DEBUG   SenderThread:36674 [sender.py:send_request():418] send_request: defer
+2024-10-02 21:08:23,243 INFO    SenderThread:36674 [sender.py:send_request_defer():622] handle sender defer: 4
+2024-10-02 21:08:23,243 INFO    SenderThread:36674 [sender.py:transition_state():626] send defer: 5
+2024-10-02 21:08:23,243 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 21:08:23,243 INFO    HandlerThread:36674 [handler.py:handle_request_defer():184] handle defer: 5
+2024-10-02 21:08:23,243 DEBUG   SenderThread:36674 [sender.py:send():391] send: summary
+2024-10-02 21:08:23,244 INFO    SenderThread:36674 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-10-02 21:08:23,244 DEBUG   SenderThread:36674 [sender.py:send_request():418] send_request: defer
+2024-10-02 21:08:23,244 INFO    SenderThread:36674 [sender.py:send_request_defer():622] handle sender defer: 5
+2024-10-02 21:08:23,244 INFO    SenderThread:36674 [sender.py:transition_state():626] send defer: 6
+2024-10-02 21:08:23,244 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 21:08:23,244 INFO    HandlerThread:36674 [handler.py:handle_request_defer():184] handle defer: 6
+2024-10-02 21:08:23,244 DEBUG   SenderThread:36674 [sender.py:send_request():418] send_request: defer
+2024-10-02 21:08:23,244 INFO    SenderThread:36674 [sender.py:send_request_defer():622] handle sender defer: 6
+2024-10-02 21:08:23,248 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: status_report
+2024-10-02 21:08:23,345 INFO    SenderThread:36674 [sender.py:transition_state():626] send defer: 7
+2024-10-02 21:08:23,346 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 21:08:23,346 INFO    HandlerThread:36674 [handler.py:handle_request_defer():184] handle defer: 7
+2024-10-02 21:08:23,346 DEBUG   SenderThread:36674 [sender.py:send_request():418] send_request: defer
+2024-10-02 21:08:23,346 INFO    SenderThread:36674 [sender.py:send_request_defer():622] handle sender defer: 7
+2024-10-02 21:08:23,600 INFO    Thread-12 :36674 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_210821-o3i90gth/files/config.yaml
+2024-10-02 21:08:23,601 INFO    Thread-12 :36674 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_210821-o3i90gth/files/wandb-summary.json
+2024-10-02 21:08:24,239 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-02 21:08:24,452 INFO    SenderThread:36674 [sender.py:transition_state():626] send defer: 8
+2024-10-02 21:08:24,452 DEBUG   SenderThread:36674 [sender.py:send_request():418] send_request: poll_exit
+2024-10-02 21:08:24,453 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 21:08:24,453 INFO    HandlerThread:36674 [handler.py:handle_request_defer():184] handle defer: 8
+2024-10-02 21:08:24,453 DEBUG   SenderThread:36674 [sender.py:send_request():418] send_request: defer
+2024-10-02 21:08:24,453 INFO    SenderThread:36674 [sender.py:send_request_defer():622] handle sender defer: 8
+2024-10-02 21:08:24,453 INFO    SenderThread:36674 [sender.py:transition_state():626] send defer: 9
+2024-10-02 21:08:24,454 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 21:08:24,454 INFO    HandlerThread:36674 [handler.py:handle_request_defer():184] handle defer: 9
+2024-10-02 21:08:24,454 DEBUG   SenderThread:36674 [sender.py:send_request():418] send_request: defer
+2024-10-02 21:08:24,454 INFO    SenderThread:36674 [sender.py:send_request_defer():622] handle sender defer: 9
+2024-10-02 21:08:24,454 INFO    SenderThread:36674 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-10-02 21:08:24,605 INFO    SenderThread:36674 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_210821-o3i90gth/files/output.log
+2024-10-02 21:08:24,606 INFO    SenderThread:36674 [dir_watcher.py:finish():388] scan: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_210821-o3i90gth/files
+2024-10-02 21:08:24,606 INFO    SenderThread:36674 [dir_watcher.py:finish():402] scan save: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_210821-o3i90gth/files/requirements.txt requirements.txt
+2024-10-02 21:08:24,606 INFO    SenderThread:36674 [dir_watcher.py:finish():402] scan save: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_210821-o3i90gth/files/output.log output.log
+2024-10-02 21:08:24,609 INFO    SenderThread:36674 [dir_watcher.py:finish():402] scan save: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_210821-o3i90gth/files/config.yaml config.yaml
+2024-10-02 21:08:24,611 INFO    SenderThread:36674 [dir_watcher.py:finish():402] scan save: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_210821-o3i90gth/files/wandb-summary.json wandb-summary.json
+2024-10-02 21:08:24,611 INFO    SenderThread:36674 [dir_watcher.py:finish():402] scan save: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_210821-o3i90gth/files/wandb-metadata.json wandb-metadata.json
+2024-10-02 21:08:24,611 INFO    SenderThread:36674 [sender.py:transition_state():626] send defer: 10
+2024-10-02 21:08:24,616 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 21:08:24,616 INFO    HandlerThread:36674 [handler.py:handle_request_defer():184] handle defer: 10
+2024-10-02 21:08:24,617 DEBUG   SenderThread:36674 [sender.py:send_request():418] send_request: defer
+2024-10-02 21:08:24,617 INFO    SenderThread:36674 [sender.py:send_request_defer():622] handle sender defer: 10
+2024-10-02 21:08:24,617 INFO    SenderThread:36674 [file_pusher.py:finish():169] shutting down file pusher
+2024-10-02 21:08:24,876 INFO    wandb-upload_3:36674 [upload_job.py:push():130] Uploaded file /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_210821-o3i90gth/files/wandb-summary.json
+2024-10-02 21:08:24,880 INFO    wandb-upload_2:36674 [upload_job.py:push():130] Uploaded file /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_210821-o3i90gth/files/config.yaml
+2024-10-02 21:08:24,880 INFO    wandb-upload_1:36674 [upload_job.py:push():130] Uploaded file /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_210821-o3i90gth/files/output.log
+2024-10-02 21:08:24,900 INFO    wandb-upload_0:36674 [upload_job.py:push():130] Uploaded file /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_210821-o3i90gth/files/requirements.txt
+2024-10-02 21:08:25,102 INFO    Thread-11 (_thread_body):36674 [sender.py:transition_state():626] send defer: 11
+2024-10-02 21:08:25,103 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 21:08:25,103 INFO    HandlerThread:36674 [handler.py:handle_request_defer():184] handle defer: 11
+2024-10-02 21:08:25,104 DEBUG   SenderThread:36674 [sender.py:send_request():418] send_request: defer
+2024-10-02 21:08:25,104 INFO    SenderThread:36674 [sender.py:send_request_defer():622] handle sender defer: 11
+2024-10-02 21:08:25,104 INFO    SenderThread:36674 [file_pusher.py:join():175] waiting for file pusher
+2024-10-02 21:08:25,105 INFO    SenderThread:36674 [sender.py:transition_state():626] send defer: 12
+2024-10-02 21:08:25,106 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 21:08:25,106 INFO    HandlerThread:36674 [handler.py:handle_request_defer():184] handle defer: 12
+2024-10-02 21:08:25,106 DEBUG   SenderThread:36674 [sender.py:send_request():418] send_request: defer
+2024-10-02 21:08:25,106 INFO    SenderThread:36674 [sender.py:send_request_defer():622] handle sender defer: 12
+2024-10-02 21:08:25,106 INFO    SenderThread:36674 [file_stream.py:finish():601] file stream finish called
+2024-10-02 21:08:25,242 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-02 21:08:25,420 INFO    SenderThread:36674 [file_stream.py:finish():605] file stream finish is done
+2024-10-02 21:08:25,420 INFO    SenderThread:36674 [sender.py:transition_state():626] send defer: 13
+2024-10-02 21:08:25,420 DEBUG   SenderThread:36674 [sender.py:send_request():418] send_request: poll_exit
+2024-10-02 21:08:25,420 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 21:08:25,421 INFO    HandlerThread:36674 [handler.py:handle_request_defer():184] handle defer: 13
+2024-10-02 21:08:25,421 DEBUG   SenderThread:36674 [sender.py:send_request():418] send_request: defer
+2024-10-02 21:08:25,421 INFO    SenderThread:36674 [sender.py:send_request_defer():622] handle sender defer: 13
+2024-10-02 21:08:25,421 INFO    SenderThread:36674 [sender.py:transition_state():626] send defer: 14
+2024-10-02 21:08:25,422 DEBUG   SenderThread:36674 [sender.py:send():391] send: final
+2024-10-02 21:08:25,422 DEBUG   SenderThread:36674 [sender.py:send():391] send: footer
+2024-10-02 21:08:25,422 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: defer
+2024-10-02 21:08:25,422 INFO    HandlerThread:36674 [handler.py:handle_request_defer():184] handle defer: 14
+2024-10-02 21:08:25,423 DEBUG   SenderThread:36674 [sender.py:send_request():418] send_request: defer
+2024-10-02 21:08:25,423 INFO    SenderThread:36674 [sender.py:send_request_defer():622] handle sender defer: 14
+2024-10-02 21:08:25,424 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: poll_exit
+2024-10-02 21:08:25,424 DEBUG   SenderThread:36674 [sender.py:send_request():418] send_request: poll_exit
+2024-10-02 21:08:25,425 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: internal_messages
+2024-10-02 21:08:25,426 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: get_summary
+2024-10-02 21:08:25,426 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: sampled_history
+2024-10-02 21:08:25,427 DEBUG   HandlerThread:36674 [handler.py:handle_request():158] handle_request: shutdown
+2024-10-02 21:08:25,427 INFO    HandlerThread:36674 [handler.py:finish():884] shutting down handler
+2024-10-02 21:08:26,429 INFO    WriterThread:36674 [datastore.py:close():296] close: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241002_210821-o3i90gth/run-o3i90gth.wandb
+2024-10-02 21:08:26,429 INFO    SenderThread:36674 [sender.py:finish():1631] shutting down sender
+2024-10-02 21:08:26,429 INFO    SenderThread:36674 [file_pusher.py:finish():169] shutting down file pusher
+2024-10-02 21:08:26,429 INFO    SenderThread:36674 [file_pusher.py:join():175] waiting for file pusher

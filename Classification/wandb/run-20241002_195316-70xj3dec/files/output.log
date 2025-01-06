@@ -1,0 +1,101 @@
+DataModule Loaded: <data_setup.DataModule.DataModule object at 0x126d13df0>
+Model Loaded: EEGNetv4(
+  (loss): NLLLoss()
+  (acc): MulticlassAccuracy()
+  (ensuredims): Ensure4d()
+  (dimshuffle): Expression(expression=_transpose_to_b_1_c_0)
+  (conv_temporal): Conv2d(1, 16, kernel_size=(1, 64), stride=(1, 1), padding=(0, 32), bias=False)
+  (bnorm_temporal): BatchNorm2d(16, eps=0.001, momentum=0.01, affine=True, track_running_stats=True)
+  (conv_spatial): Conv2dWithConstraint(16, 32, kernel_size=(64, 1), stride=(1, 1), groups=16, bias=False)
+  (bnorm_1): BatchNorm2d(32, eps=0.001, momentum=0.1, affine=True, track_running_stats=True)
+  (elu_1): Expression(expression=elu)
+  (pool_1): MaxPool2d(kernel_size=(1, 4), stride=(1, 4), padding=0, dilation=1, ceil_mode=False)
+  (drop_1): Dropout(p=0.5, inplace=False)
+  (conv_separable_depth): Conv2d(32, 32, kernel_size=(1, 16), stride=(1, 1), padding=(0, 8), groups=32, bias=False)
+  (conv_separable_point): Conv2d(32, 32, kernel_size=(1, 1), stride=(1, 1), bias=False)
+  (bnorm_2): BatchNorm2d(32, eps=0.001, momentum=0.1, affine=True, track_running_stats=True)
+  (elu_2): Expression(expression=elu)
+  (pool_2): MaxPool2d(kernel_size=(1, 8), stride=(1, 8), padding=0, dilation=1, ceil_mode=False)
+  (drop_2): Dropout(p=0.5, inplace=False)
+  (conv_classifier): Conv2d(32, 6, kernel_size=(1, 128), stride=(1, 1))
+  (softmax): LogSoftmax(dim=1)
+  (permute_back): Expression(expression=_transpose_1_0)
+  (squeeze): Expression(expression=squeeze_final_output)
+)
+Data shape: torch.Size([374, 64, 4096]), Labels shape: torch.Size([47])
+Data shape: torch.Size([47, 64, 4096]), Labels shape: torch.Size([47])
+Sanity Checking DataLoader 0:   0%|                                                                                                                                                                                              | 0/1 [00:00<?, ?it/s]
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/pytorch_lightning/loggers/wandb.py:396: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+   | Name                 | Type                 | Params | Mode
+-----------------------------------------------------------------------
+0  | loss                 | NLLLoss              | 0      | train
+1  | acc                  | MulticlassAccuracy   | 0      | train
+2  | ensuredims           | Ensure4d             | 0      | train
+3  | dimshuffle           | Expression           | 0      | train
+4  | conv_temporal        | Conv2d               | 1.0 K  | train
+5  | bnorm_temporal       | BatchNorm2d          | 32     | train
+6  | conv_spatial         | Conv2dWithConstraint | 2.0 K  | train
+7  | bnorm_1              | BatchNorm2d          | 64     | train
+8  | elu_1                | Expression           | 0      | train
+9  | pool_1               | MaxPool2d            | 0      | train
+10 | drop_1               | Dropout              | 0      | train
+11 | conv_separable_depth | Conv2d               | 512    | train
+12 | conv_separable_point | Conv2d               | 1.0 K  | train
+13 | bnorm_2              | BatchNorm2d          | 64     | train
+14 | elu_2                | Expression           | 0      | train
+15 | pool_2               | MaxPool2d            | 0      | train
+16 | drop_2               | Dropout              | 0      | train
+17 | conv_classifier      | Conv2d               | 24.6 K | train
+18 | softmax              | LogSoftmax           | 0      | train
+19 | permute_back         | Expression           | 0      | train
+20 | squeeze              | Expression           | 0      | train
+-----------------------------------------------------------------------
+29.4 K    Trainable params
+0         Non-trainable params
+29.4 K    Total params
+0.117     Total estimated model params size (MB)
+21        Modules in train mode
+0         Modules in eval mode
+
+Epoch 0:   0%|                                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]
+/Users/arnavkapur/.pyenv/versions/3.10.12/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:424: The 'train_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=11` in the `DataLoader` to improve performance.
+Epoch 0: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:20<00:00,  0.05it/s, v_num=3dec]
+
+Validation DataLoader 0:   0%|                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]
+Metric val_acc improved. New best score: 0.149
+Epoch 1: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:20<00:00,  0.05it/s, v_num=3dec, val_loss=1.790, val_acc=0.149, train_loss=3.530, train_acc=0.170]
+
+Validation DataLoader 0:   0%|                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]
+Metric val_acc improved by 0.021 >= min_delta = 0.0. New best score: 0.170
+Epoch 2: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:21<00:00,  0.05it/s, v_num=3dec, val_loss=1.790, val_acc=0.170, train_loss=2.780, train_acc=0.170]
+
+Validation DataLoader 0:   0%|                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]
+
+Epoch 4:   0%|                                                                                                                                     | 0/1 [00:00<?, ?it/s, v_num=3dec, val_loss=1.800, val_acc=0.106, train_loss=3.130, train_acc=0.191]
+Epoch 4: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:19<00:00,  0.05it/s, v_num=3dec, val_loss=1.800, val_acc=0.106, train_loss=3.130, train_acc=0.191]
+
+Validation DataLoader 0:   0%|                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]
+
+Epoch 6:   0%|                                                                                                                                     | 0/1 [00:00<?, ?it/s, v_num=3dec, val_loss=1.810, val_acc=0.106, train_loss=2.530, train_acc=0.213]
+Epoch 6: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:18<00:00,  0.05it/s, v_num=3dec, val_loss=1.810, val_acc=0.106, train_loss=2.530, train_acc=0.213]
+
+Validation DataLoader 0:   0%|                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]
+Epoch 7: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:19<00:00,  0.05it/s, v_num=3dec, val_loss=1.810, val_acc=0.106, train_loss=2.140, train_acc=0.340]
+
+Validation DataLoader 0:   0%|                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]
+Epoch 8: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:20<00:00,  0.05it/s, v_num=3dec, val_loss=1.830, val_acc=0.0851, train_loss=2.380, train_acc=0.298]
+Validation DataLoader 0:   0%|                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]
+
+
+Epoch 10:   0%|                                                                                                                                   | 0/1 [00:00<?, ?it/s, v_num=3dec, val_loss=1.850, val_acc=0.0426, train_loss=1.800, train_acc=0.426]
+Epoch 10: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:20<00:00,  0.05it/s, v_num=3dec, val_loss=1.850, val_acc=0.0426, train_loss=1.800, train_acc=0.426]
+
+Validation DataLoader 0:   0%|                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]
+Epoch 11: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:20<00:00,  0.05it/s, v_num=3dec, val_loss=1.850, val_acc=0.0426, train_loss=1.920, train_acc=0.468]
+
+Validation DataLoader 0:   0%|                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]
+Monitored metric val_acc did not improve in the last 10 records. Best score: 0.170. Signaling Trainer to stop.
+Epoch 11, global step 12: 'val_acc' was not in top 1

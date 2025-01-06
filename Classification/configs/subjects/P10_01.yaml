@@ -1,0 +1,16 @@
+name: P010_01
+parameters:
+  datamodule:
+    parameters:
+      data_dir: 
+        value: "/Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/PREPROCESSED_DATA/S01/eeg/P10_01.npy"
+        #value: "./data/preprocessed/dry/P001"
+      # val_run: 
+      #   value: "sub-P001_ses-S003_task-Default_run-002_eeg"
+      #   #value: "sub-P001_ses-S001_task-Default_run-002_eeg"
+      batch_size:
+        values: [64, 128] #[32, 128]
+      num_workers:
+        value: 0
+      seed:
+        value: 42

@@ -1,0 +1,36 @@
+2024-10-13 21:55:40,530 INFO    Thread-8 (_run_job):8859 [wandb_setup.py:_flush():77] Current SDK version is 0.17.8
+2024-10-13 21:55:40,530 INFO    Thread-8 (_run_job):8859 [wandb_setup.py:_flush():77] Configure stats pid to 8859
+2024-10-13 21:55:40,530 INFO    Thread-8 (_run_job):8859 [wandb_setup.py:_flush():77] Loading settings from /Users/arnavkapur/.config/wandb/settings
+2024-10-13 21:55:40,531 INFO    Thread-8 (_run_job):8859 [wandb_setup.py:_flush():77] Loading settings from /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/settings
+2024-10-13 21:55:40,531 INFO    Thread-8 (_run_job):8859 [wandb_setup.py:_flush():77] Loading settings from environment variables: {'project': 'EEGNet_P001_final', 'entity': 'constanzealbrecht-eth-z-rich', 'root_dir': '/Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch', 'run_id': 'aa2oddu1', 'sweep_param_path': '/Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/sweep-qxz122my/config-aa2oddu1.yaml', 'sweep_id': 'qxz122my'}
+2024-10-13 21:55:40,531 INFO    Thread-8 (_run_job):8859 [wandb_setup.py:_flush():77] Applying setup settings: {'_disable_service': False}
+2024-10-13 21:55:40,531 INFO    Thread-8 (_run_job):8859 [wandb_setup.py:_flush():77] Inferring run settings from compute environment: {'program_relpath': 'Generation/pytorch/train.py', 'program_abspath': '/Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/train.py', 'program': '/Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/train.py'}
+2024-10-13 21:55:40,531 INFO    Thread-8 (_run_job):8859 [wandb_setup.py:_flush():77] Applying login settings: {}
+2024-10-13 21:55:40,531 INFO    Thread-8 (_run_job):8859 [wandb_init.py:_log_setup():524] Logging user logs to /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241013_215540-aa2oddu1/logs/debug.log
+2024-10-13 21:55:40,531 INFO    Thread-8 (_run_job):8859 [wandb_init.py:_log_setup():525] Logging internal logs to /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20241013_215540-aa2oddu1/logs/debug-internal.log
+2024-10-13 21:55:40,531 INFO    Thread-8 (_run_job):8859 [wandb_init.py:init():607] calling init triggers
+2024-10-13 21:55:40,531 INFO    Thread-8 (_run_job):8859 [wandb_init.py:init():614] wandb.init called with sweep_config: {'datamodule': {'batch_size': 64, 'data_dir': '/Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/PREPROCESSED_DATA/S01/eeg/P10_01.npy', 'num_workers': 0, 'seed': 42, 'val_run': '/Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/Segmented_data/S02/val/data.npy'}, 'final_model': False, 'fine_tuning': False, 'model': {'D': 2, 'F1': 64, 'drop_prob': 0.25, 'final_conv_length': 'auto', 'in_chans': 64, 'input_window_samples': 4096, 'kernel_length': 64, 'lr': 0.009704957301148317, 'momentum': 0.1, 'n_classes': 6, 'one_cycle_lr': True, 'pool_mode': 'max', 'weight_decay': 0.008274525665870416}, 'model_name': 'EEGNET', 'trainer': {'max_epochs': 30}}
+config: {}
+2024-10-13 21:55:40,531 INFO    Thread-8 (_run_job):8859 [wandb_init.py:init():657] starting backend
+2024-10-13 21:55:40,531 INFO    Thread-8 (_run_job):8859 [wandb_init.py:init():661] setting up manager
+2024-10-13 21:55:40,539 INFO    Thread-8 (_run_job):8859 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-10-13 21:55:40,540 INFO    Thread-8 (_run_job):8859 [wandb_init.py:init():669] backend started and connected
+2024-10-13 21:55:40,552 INFO    Thread-8 (_run_job):8859 [wandb_run.py:_config_callback():1392] config_cb None None {'datamodule': {'batch_size': 64, 'data_dir': '/Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/PREPROCESSED_DATA/S01/eeg/P10_01.npy', 'num_workers': 0, 'seed': 42, 'val_run': '/Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/Segmented_data/S02/val/data.npy'}, 'final_model': False, 'fine_tuning': False, 'model': {'D': 2, 'F1': 64, 'drop_prob': 0.25, 'final_conv_length': 'auto', 'in_chans': 64, 'input_window_samples': 4096, 'kernel_length': 64, 'lr': 0.009704957301148317, 'momentum': 0.1, 'n_classes': 6, 'one_cycle_lr': True, 'pool_mode': 'max', 'weight_decay': 0.008274525665870416}, 'model_name': 'EEGNET', 'trainer': {'max_epochs': 30}}
+2024-10-13 21:55:40,555 INFO    Thread-8 (_run_job):8859 [wandb_init.py:init():767] updated telemetry
+2024-10-13 21:55:40,591 INFO    Thread-8 (_run_job):8859 [wandb_init.py:init():800] communicating run to backend with 90.0 second timeout
+2024-10-13 21:55:40,863 INFO    Thread-8 (_run_job):8859 [wandb_init.py:init():851] starting run threads in backend
+2024-10-13 21:55:41,210 INFO    Thread-8 (_run_job):8859 [wandb_run.py:_console_start():2463] atexit reg
+2024-10-13 21:55:41,210 INFO    Thread-8 (_run_job):8859 [wandb_run.py:_redirect():2309] redirect: wrap_raw
+2024-10-13 21:55:41,210 INFO    Thread-8 (_run_job):8859 [wandb_run.py:_redirect():2374] Wrapping output streams.
+2024-10-13 21:55:41,210 INFO    Thread-8 (_run_job):8859 [wandb_run.py:_redirect():2399] Redirects installed.
+2024-10-13 21:55:41,211 INFO    Thread-8 (_run_job):8859 [wandb_init.py:init():894] run started, returning control to user process
+2024-10-13 21:55:42,123 INFO    Thread-8 (_run_job):8859 [wandb_run.py:_finish():2160] finishing run constanzealbrecht-eth-z-rich/EEGNet_P001_final/aa2oddu1
+2024-10-13 21:55:42,124 INFO    Thread-8 (_run_job):8859 [wandb_run.py:_atexit_cleanup():2424] got exitcode: 1
+2024-10-13 21:55:42,124 INFO    Thread-8 (_run_job):8859 [wandb_run.py:_restore():2406] restore
+2024-10-13 21:55:42,124 INFO    Thread-8 (_run_job):8859 [wandb_run.py:_restore():2412] restore done
+2024-10-13 21:55:42,124 INFO    Thread-8 (_run_job):8859 [wandb_run.py:_on_finish():2677] communicating current version
+2024-10-13 21:55:42,227 INFO    Thread-8 (_run_job):8859 [wandb_run.py:_on_finish():2686] got version response upgrade_message: "wandb version 0.18.3 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-10-13 21:55:45,694 INFO    Thread-8 (_run_job):8859 [wandb_run.py:_footer_history_summary_info():4078] rendering history
+2024-10-13 21:55:45,695 INFO    Thread-8 (_run_job):8859 [wandb_run.py:_footer_history_summary_info():4110] rendering summary
+2024-10-13 21:55:45,703 INFO    Thread-8 (_run_job):8859 [wandb_run.py:_footer_sync_info():4037] logging synced files

@@ -1,0 +1,116 @@
+wandb_version: 1
+
+seed:
+  desc: null
+  value: 2022
+root_path:
+  desc: null
+  value: .
+roi:
+  desc: null
+  value: VC
+pretrain_gm_path:
+  desc: null
+  value: ./reconstruction/pretrains/ldm/label2img
+dataset:
+  desc: null
+  value: EEG
+img_size:
+  desc: null
+  value: 256
+batch_size:
+  desc: null
+  value: 5
+lr:
+  desc: null
+  value: 5.3e-05
+num_epoch:
+  desc: null
+  value: 200
+precision:
+  desc: null
+  value: 32
+accumulate_grad:
+  desc: null
+  value: 1
+crop_ratio:
+  desc: null
+  value: 0.2
+global_pool:
+  desc: null
+  value: false
+use_time_cond:
+  desc: null
+  value: true
+eval_avg:
+  desc: null
+  value: true
+num_samples:
+  desc: null
+  value: 5
+ddim_steps:
+  desc: null
+  value: 250
+HW:
+  desc: null
+  value: null
+model_meta:
+  desc: null
+  value: null
+checkpoint_path:
+  desc: null
+  value: null
+eeg_data_path_train:
+  desc: null
+  value: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/Segmented_data/train
+eeg_data_path_test:
+  desc: null
+  value: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/Segmented_data/test
+eeg_val_path:
+  desc: null
+  value: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/Segmented_data/val
+eeg_model_config_path:
+  desc: null
+  value: ./reconstruction/pretrains/EEG/P001_model_config.yaml
+eeg_model_ckpt_path:
+  desc: null
+  value: ./reconstruction/pretrains/EEG/final-model-P001.ckpt
+output_path:
+  desc: null
+  value: ./results/generation/27-09-2024-20-19-16
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.12
+    cli_version: 0.17.8
+    framework: huggingface
+    huggingface_version: 4.44.2
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1727482758
+    t:
+      1:
+      - 1
+      - 9
+      - 11
+      - 41
+      - 49
+      - 55
+      - 103
+      2:
+      - 1
+      - 9
+      - 11
+      - 41
+      - 49
+      - 55
+      - 103
+      3:
+      - 16
+      - 23
+      4: 3.10.12
+      5: 0.17.8
+      6: 4.44.2
+      8:
+      - 5
+      13: darwin-x86_64

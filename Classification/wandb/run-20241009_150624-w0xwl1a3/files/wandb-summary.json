@@ -1,0 +1,1 @@
+{"Learning Rate Scheduling": 0.004804796039912847, "trainer/global_step": 11, "_timestamp": 1728501042.960021, "_runtime": 258.02581310272217, "_step": 33, "val_loss": 1.8122038841247559, "val_acc": 0.19148936867713928, "epoch": 10, "train_loss": 0.6306579113006592, "train_acc": 0.7659574747085571, "_wandb": {"runtime": 270}}

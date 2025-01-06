@@ -1,0 +1,266 @@
+2024-09-27 18:36:18,026 INFO    StreamThr :65339 [internal.py:wandb_internal():85] W&B internal server running at pid: 65339, started at: 2024-09-27 18:36:18.025760
+2024-09-27 18:36:18,028 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: status
+2024-09-27 18:36:18,044 INFO    WriterThread:65339 [datastore.py:open_for_write():87] open: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/run-juqsbprf.wandb
+2024-09-27 18:36:18,045 DEBUG   SenderThread:65339 [sender.py:send():391] send: header
+2024-09-27 18:36:18,082 DEBUG   SenderThread:65339 [sender.py:send():391] send: run
+2024-09-27 18:36:18,269 INFO    SenderThread:65339 [dir_watcher.py:__init__():211] watching files in: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/files
+2024-09-27 18:36:18,269 INFO    SenderThread:65339 [sender.py:_start_run_threads():1200] run started: juqsbprf with start time 1727476578.026835
+2024-09-27 18:36:18,292 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: run_start
+2024-09-27 18:36:18,306 DEBUG   HandlerThread:65339 [system_info.py:__init__():26] System info init
+2024-09-27 18:36:18,307 DEBUG   HandlerThread:65339 [system_info.py:__init__():41] System info init done
+2024-09-27 18:36:18,307 INFO    HandlerThread:65339 [system_monitor.py:start():194] Starting system monitor
+2024-09-27 18:36:18,307 INFO    SystemMonitor:65339 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-09-27 18:36:18,308 INFO    HandlerThread:65339 [system_monitor.py:probe():214] Collecting system info
+2024-09-27 18:36:18,309 INFO    SystemMonitor:65339 [interfaces.py:start():188] Started cpu monitoring
+2024-09-27 18:36:18,310 DEBUG   HandlerThread:65339 [system_info.py:probe():152] Probing system
+2024-09-27 18:36:18,310 INFO    SystemMonitor:65339 [interfaces.py:start():188] Started disk monitoring
+2024-09-27 18:36:18,312 INFO    SystemMonitor:65339 [interfaces.py:start():188] Started memory monitoring
+2024-09-27 18:36:18,349 INFO    SystemMonitor:65339 [interfaces.py:start():188] Started network monitoring
+2024-09-27 18:36:18,361 DEBUG   HandlerThread:65339 [system_info.py:_probe_git():137] Probing git
+2024-09-27 18:36:18,414 DEBUG   HandlerThread:65339 [system_info.py:_probe_git():145] Probing git done
+2024-09-27 18:36:18,414 DEBUG   HandlerThread:65339 [system_info.py:probe():200] Probing system done
+2024-09-27 18:36:18,414 DEBUG   HandlerThread:65339 [system_monitor.py:probe():223] {'os': 'macOS-14.5-x86_64-i386-64bit', 'python': '3.10.12', 'heartbeatAt': '2024-09-27T22:36:18.310866', 'startedAt': '2024-09-27T22:36:18.007287', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/train.py', 'codePathLocal': 'train.py', 'codePath': 'Generation/pytorch/train.py', 'git': {'remote': 'https://github.com/AttentivU/imagery2024.git', 'commit': 'f1d65989f3be17f3e154b816c1d28a45a481f445'}, 'email': 'calbrecht@ethz.ch', 'root': '/Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024', 'host': 'C02DV3PNMD6R.tld', 'username': 'arnavkapur', 'executable': '/Users/arnavkapur/.pyenv/versions/3.10.12/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2600, 'min': 2600, 'max': 2600}, 'cpu_freq_per_core': [{'current': 2600, 'min': 2600, 'max': 2600}], 'disk': {'/': {'total': 465.62699127197266, 'used': 12.405502319335938}}, 'memory': {'total': 16.0}}
+2024-09-27 18:36:18,414 INFO    HandlerThread:65339 [system_monitor.py:probe():224] Finished collecting system info
+2024-09-27 18:36:18,414 INFO    HandlerThread:65339 [system_monitor.py:probe():227] Publishing system info
+2024-09-27 18:36:18,415 INFO    HandlerThread:65339 [system_monitor.py:probe():229] Finished publishing system info
+2024-09-27 18:36:18,426 DEBUG   SenderThread:65339 [sender.py:send():391] send: files
+2024-09-27 18:36:18,426 INFO    SenderThread:65339 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2024-09-27 18:36:18,852 INFO    wandb-upload_0:65339 [upload_job.py:push():130] Uploaded file /var/folders/w2/bjrs7bh539701pd5yx65p_cc0000gp/T/tmp27_crfchwandb/zapyurvs-wandb-metadata.json
+2024-09-27 18:36:18,992 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: python_packages
+2024-09-27 18:36:18,993 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: python_packages
+2024-09-27 18:36:18,993 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-27 18:36:18,994 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: stop_status
+2024-09-27 18:36:18,995 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-27 18:36:19,076 DEBUG   SenderThread:65339 [sender.py:send():391] send: telemetry
+2024-09-27 18:36:19,273 INFO    Thread-12 :65339 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/files/output.log
+2024-09-27 18:36:19,273 INFO    Thread-12 :65339 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/files/wandb-metadata.json
+2024-09-27 18:36:19,273 INFO    Thread-12 :65339 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/files/requirements.txt
+2024-09-27 18:36:21,212 DEBUG   SenderThread:65339 [sender.py:send():391] send: config
+2024-09-27 18:36:21,273 INFO    Thread-12 :65339 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/files/output.log
+2024-09-27 18:36:23,277 INFO    Thread-12 :65339 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/files/output.log
+2024-09-27 18:36:23,294 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: status_report
+2024-09-27 18:36:28,189 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-27 18:36:28,191 DEBUG   SenderThread:65339 [sender.py:send():391] send: history
+2024-09-27 18:36:28,192 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: summary_record
+2024-09-27 18:36:28,193 INFO    SenderThread:65339 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-27 18:36:28,288 INFO    Thread-12 :65339 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/files/wandb-summary.json
+2024-09-27 18:36:28,993 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-27 18:36:28,998 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: status_report
+2024-09-27 18:36:29,291 INFO    Thread-12 :65339 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/files/output.log
+2024-09-27 18:36:33,994 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-27 18:36:33,994 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: stop_status
+2024-09-27 18:36:34,126 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: status_report
+2024-09-27 18:36:38,994 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-27 18:36:40,006 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: status_report
+2024-09-27 18:36:45,013 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: status_report
+2024-09-27 18:36:48,996 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-27 18:36:48,996 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-27 18:36:48,997 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: stop_status
+2024-09-27 18:36:50,114 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: status_report
+2024-09-27 18:36:50,340 INFO    Thread-12 :65339 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/files/config.yaml
+2024-09-27 18:36:56,015 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: status_report
+2024-09-27 18:36:58,996 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-27 18:37:01,018 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: status_report
+2024-09-27 18:37:04,000 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-27 18:37:04,001 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: stop_status
+2024-09-27 18:37:06,218 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: status_report
+2024-09-27 18:37:08,997 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-27 18:37:12,021 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: status_report
+2024-09-27 18:37:17,033 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: status_report
+2024-09-27 18:37:18,352 DEBUG   SystemMonitor:65339 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-09-27 18:37:18,355 DEBUG   SenderThread:65339 [sender.py:send():391] send: stats
+2024-09-27 18:37:18,998 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-27 18:37:19,005 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-27 18:37:19,006 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: stop_status
+2024-09-27 18:37:22,982 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: status_report
+2024-09-27 18:37:23,433 INFO    Thread-12 :65339 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/files/output.log
+2024-09-27 18:37:25,343 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-27 18:37:25,345 DEBUG   SenderThread:65339 [sender.py:send():391] send: history
+2024-09-27 18:37:25,346 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: summary_record
+2024-09-27 18:37:25,347 INFO    SenderThread:65339 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-27 18:37:25,420 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-27 18:37:25,421 DEBUG   SenderThread:65339 [sender.py:send():391] send: history
+2024-09-27 18:37:25,421 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-27 18:37:25,421 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: summary_record
+2024-09-27 18:37:25,423 INFO    SenderThread:65339 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-27 18:37:25,423 DEBUG   SenderThread:65339 [sender.py:send():391] send: history
+2024-09-27 18:37:25,423 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: summary_record
+2024-09-27 18:37:25,423 INFO    SenderThread:65339 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-27 18:37:25,444 INFO    Thread-12 :65339 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/files/wandb-summary.json
+2024-09-27 18:37:27,450 INFO    Thread-12 :65339 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/files/output.log
+2024-09-27 18:37:28,430 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: status_report
+2024-09-27 18:37:29,002 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-27 18:37:34,009 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-27 18:37:34,009 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: stop_status
+2024-09-27 18:37:34,128 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: status_report
+2024-09-27 18:37:39,001 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-27 18:37:40,037 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: status_report
+2024-09-27 18:37:45,042 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: status_report
+2024-09-27 18:37:48,355 DEBUG   SenderThread:65339 [sender.py:send():391] send: stats
+2024-09-27 18:37:49,001 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-27 18:37:49,012 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-27 18:37:49,012 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: stop_status
+2024-09-27 18:37:50,155 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: status_report
+2024-09-27 18:37:56,042 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: status_report
+2024-09-27 18:37:59,004 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-27 18:38:01,044 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: status_report
+2024-09-27 18:38:04,012 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-27 18:38:04,015 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: stop_status
+2024-09-27 18:38:06,097 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: status_report
+2024-09-27 18:38:09,009 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-27 18:38:12,055 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: status_report
+2024-09-27 18:38:17,662 INFO    Thread-12 :65339 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/files/output.log
+2024-09-27 18:38:17,932 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: status_report
+2024-09-27 18:38:18,358 DEBUG   SenderThread:65339 [sender.py:send():391] send: stats
+2024-09-27 18:38:19,013 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-27 18:38:19,015 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-27 18:38:19,040 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: stop_status
+2024-09-27 18:38:21,259 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-27 18:38:21,260 DEBUG   SenderThread:65339 [sender.py:send():391] send: history
+2024-09-27 18:38:21,262 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: summary_record
+2024-09-27 18:38:21,263 INFO    SenderThread:65339 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-27 18:38:21,267 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-27 18:38:21,268 DEBUG   SenderThread:65339 [sender.py:send():391] send: history
+2024-09-27 18:38:21,268 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-27 18:38:21,269 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: summary_record
+2024-09-27 18:38:21,271 INFO    SenderThread:65339 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-27 18:38:21,271 DEBUG   SenderThread:65339 [sender.py:send():391] send: history
+2024-09-27 18:38:21,272 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: summary_record
+2024-09-27 18:38:21,273 INFO    SenderThread:65339 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-27 18:38:21,674 INFO    Thread-12 :65339 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/files/wandb-summary.json
+2024-09-27 18:38:23,282 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: status_report
+2024-09-27 18:38:23,677 INFO    Thread-12 :65339 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/files/output.log
+2024-09-27 18:38:29,012 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-27 18:38:29,059 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: status_report
+2024-09-27 18:38:31,699 INFO    Thread-12 :65339 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/files/output.log
+2024-09-27 18:38:32,575 DEBUG   SenderThread:65339 [sender.py:send():391] send: exit
+2024-09-27 18:38:32,576 INFO    SenderThread:65339 [sender.py:send_exit():598] handling exit code: 0
+2024-09-27 18:38:32,585 INFO    SenderThread:65339 [sender.py:send_exit():600] handling runtime: 134
+2024-09-27 18:38:32,586 INFO    SenderThread:65339 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-27 18:38:32,586 INFO    SenderThread:65339 [sender.py:send_exit():606] send defer
+2024-09-27 18:38:32,586 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: defer
+2024-09-27 18:38:32,590 INFO    HandlerThread:65339 [handler.py:handle_request_defer():184] handle defer: 0
+2024-09-27 18:38:32,591 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: defer
+2024-09-27 18:38:32,591 INFO    SenderThread:65339 [sender.py:send_request_defer():622] handle sender defer: 0
+2024-09-27 18:38:32,592 INFO    SenderThread:65339 [sender.py:transition_state():626] send defer: 1
+2024-09-27 18:38:32,592 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: defer
+2024-09-27 18:38:32,592 INFO    HandlerThread:65339 [handler.py:handle_request_defer():184] handle defer: 1
+2024-09-27 18:38:32,592 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: defer
+2024-09-27 18:38:32,592 INFO    SenderThread:65339 [sender.py:send_request_defer():622] handle sender defer: 1
+2024-09-27 18:38:32,592 INFO    SenderThread:65339 [sender.py:transition_state():626] send defer: 2
+2024-09-27 18:38:32,592 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: defer
+2024-09-27 18:38:32,593 INFO    HandlerThread:65339 [handler.py:handle_request_defer():184] handle defer: 2
+2024-09-27 18:38:32,593 INFO    HandlerThread:65339 [system_monitor.py:finish():203] Stopping system monitor
+2024-09-27 18:38:32,593 DEBUG   SystemMonitor:65339 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-09-27 18:38:32,593 DEBUG   SystemMonitor:65339 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-09-27 18:38:32,593 INFO    HandlerThread:65339 [interfaces.py:finish():200] Joined cpu monitor
+2024-09-27 18:38:32,594 INFO    HandlerThread:65339 [interfaces.py:finish():200] Joined disk monitor
+2024-09-27 18:38:32,594 INFO    HandlerThread:65339 [interfaces.py:finish():200] Joined memory monitor
+2024-09-27 18:38:32,594 INFO    HandlerThread:65339 [interfaces.py:finish():200] Joined network monitor
+2024-09-27 18:38:32,595 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: defer
+2024-09-27 18:38:32,595 INFO    SenderThread:65339 [sender.py:send_request_defer():622] handle sender defer: 2
+2024-09-27 18:38:32,595 INFO    SenderThread:65339 [sender.py:transition_state():626] send defer: 3
+2024-09-27 18:38:32,595 DEBUG   SenderThread:65339 [sender.py:send():391] send: stats
+2024-09-27 18:38:32,595 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: defer
+2024-09-27 18:38:32,595 INFO    HandlerThread:65339 [handler.py:handle_request_defer():184] handle defer: 3
+2024-09-27 18:38:32,596 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: defer
+2024-09-27 18:38:32,596 INFO    SenderThread:65339 [sender.py:send_request_defer():622] handle sender defer: 3
+2024-09-27 18:38:32,596 INFO    SenderThread:65339 [sender.py:transition_state():626] send defer: 4
+2024-09-27 18:38:32,596 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: defer
+2024-09-27 18:38:32,596 INFO    HandlerThread:65339 [handler.py:handle_request_defer():184] handle defer: 4
+2024-09-27 18:38:32,597 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: defer
+2024-09-27 18:38:32,597 INFO    SenderThread:65339 [sender.py:send_request_defer():622] handle sender defer: 4
+2024-09-27 18:38:32,597 INFO    SenderThread:65339 [sender.py:transition_state():626] send defer: 5
+2024-09-27 18:38:32,598 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: defer
+2024-09-27 18:38:32,598 INFO    HandlerThread:65339 [handler.py:handle_request_defer():184] handle defer: 5
+2024-09-27 18:38:32,598 DEBUG   SenderThread:65339 [sender.py:send():391] send: summary
+2024-09-27 18:38:32,599 INFO    SenderThread:65339 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-27 18:38:32,599 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: defer
+2024-09-27 18:38:32,600 INFO    SenderThread:65339 [sender.py:send_request_defer():622] handle sender defer: 5
+2024-09-27 18:38:32,600 INFO    SenderThread:65339 [sender.py:transition_state():626] send defer: 6
+2024-09-27 18:38:32,600 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: defer
+2024-09-27 18:38:32,600 INFO    HandlerThread:65339 [handler.py:handle_request_defer():184] handle defer: 6
+2024-09-27 18:38:32,600 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: defer
+2024-09-27 18:38:32,600 INFO    SenderThread:65339 [sender.py:send_request_defer():622] handle sender defer: 6
+2024-09-27 18:38:32,600 INFO    SenderThread:65339 [sender.py:transition_state():626] send defer: 7
+2024-09-27 18:38:32,601 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: status_report
+2024-09-27 18:38:32,601 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: defer
+2024-09-27 18:38:32,601 INFO    HandlerThread:65339 [handler.py:handle_request_defer():184] handle defer: 7
+2024-09-27 18:38:32,601 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: defer
+2024-09-27 18:38:32,601 INFO    SenderThread:65339 [sender.py:send_request_defer():622] handle sender defer: 7
+2024-09-27 18:38:32,700 INFO    Thread-12 :65339 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/files/wandb-summary.json
+2024-09-27 18:38:33,455 INFO    SenderThread:65339 [sender.py:transition_state():626] send defer: 8
+2024-09-27 18:38:33,455 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: defer
+2024-09-27 18:38:33,455 INFO    HandlerThread:65339 [handler.py:handle_request_defer():184] handle defer: 8
+2024-09-27 18:38:33,456 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: defer
+2024-09-27 18:38:33,456 INFO    SenderThread:65339 [sender.py:send_request_defer():622] handle sender defer: 8
+2024-09-27 18:38:33,456 INFO    SenderThread:65339 [sender.py:transition_state():626] send defer: 9
+2024-09-27 18:38:33,456 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: defer
+2024-09-27 18:38:33,456 INFO    HandlerThread:65339 [handler.py:handle_request_defer():184] handle defer: 9
+2024-09-27 18:38:33,457 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: defer
+2024-09-27 18:38:33,457 INFO    SenderThread:65339 [sender.py:send_request_defer():622] handle sender defer: 9
+2024-09-27 18:38:33,457 INFO    SenderThread:65339 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-09-27 18:38:33,580 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-27 18:38:33,703 INFO    SenderThread:65339 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/files/output.log
+2024-09-27 18:38:33,704 INFO    SenderThread:65339 [dir_watcher.py:finish():388] scan: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/files
+2024-09-27 18:38:33,704 INFO    SenderThread:65339 [dir_watcher.py:finish():402] scan save: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/files/requirements.txt requirements.txt
+2024-09-27 18:38:33,705 INFO    SenderThread:65339 [dir_watcher.py:finish():402] scan save: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/files/output.log output.log
+2024-09-27 18:38:33,705 INFO    SenderThread:65339 [dir_watcher.py:finish():402] scan save: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/files/config.yaml config.yaml
+2024-09-27 18:38:33,706 INFO    SenderThread:65339 [dir_watcher.py:finish():402] scan save: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/files/wandb-summary.json wandb-summary.json
+2024-09-27 18:38:33,709 INFO    SenderThread:65339 [dir_watcher.py:finish():402] scan save: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/files/wandb-metadata.json wandb-metadata.json
+2024-09-27 18:38:33,715 INFO    SenderThread:65339 [sender.py:transition_state():626] send defer: 10
+2024-09-27 18:38:33,716 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: poll_exit
+2024-09-27 18:38:33,717 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: defer
+2024-09-27 18:38:33,719 INFO    HandlerThread:65339 [handler.py:handle_request_defer():184] handle defer: 10
+2024-09-27 18:38:33,721 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: defer
+2024-09-27 18:38:33,721 INFO    SenderThread:65339 [sender.py:send_request_defer():622] handle sender defer: 10
+2024-09-27 18:38:33,722 INFO    SenderThread:65339 [file_pusher.py:finish():169] shutting down file pusher
+2024-09-27 18:38:33,968 INFO    wandb-upload_0:65339 [upload_job.py:push():130] Uploaded file /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/files/requirements.txt
+2024-09-27 18:38:34,124 INFO    wandb-upload_1:65339 [upload_job.py:push():130] Uploaded file /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/files/output.log
+2024-09-27 18:38:34,125 INFO    wandb-upload_2:65339 [upload_job.py:push():130] Uploaded file /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/files/config.yaml
+2024-09-27 18:38:34,125 INFO    wandb-upload_3:65339 [upload_job.py:push():130] Uploaded file /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/files/wandb-summary.json
+2024-09-27 18:38:34,325 INFO    Thread-11 (_thread_body):65339 [sender.py:transition_state():626] send defer: 11
+2024-09-27 18:38:34,326 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: defer
+2024-09-27 18:38:34,326 INFO    HandlerThread:65339 [handler.py:handle_request_defer():184] handle defer: 11
+2024-09-27 18:38:34,327 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: defer
+2024-09-27 18:38:34,327 INFO    SenderThread:65339 [sender.py:send_request_defer():622] handle sender defer: 11
+2024-09-27 18:38:34,327 INFO    SenderThread:65339 [file_pusher.py:join():175] waiting for file pusher
+2024-09-27 18:38:34,329 INFO    SenderThread:65339 [sender.py:transition_state():626] send defer: 12
+2024-09-27 18:38:34,329 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: defer
+2024-09-27 18:38:34,329 INFO    HandlerThread:65339 [handler.py:handle_request_defer():184] handle defer: 12
+2024-09-27 18:38:34,329 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: defer
+2024-09-27 18:38:34,329 INFO    SenderThread:65339 [sender.py:send_request_defer():622] handle sender defer: 12
+2024-09-27 18:38:34,329 INFO    SenderThread:65339 [file_stream.py:finish():601] file stream finish called
+2024-09-27 18:38:34,582 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-27 18:38:34,904 INFO    SenderThread:65339 [file_stream.py:finish():605] file stream finish is done
+2024-09-27 18:38:34,905 INFO    SenderThread:65339 [sender.py:transition_state():626] send defer: 13
+2024-09-27 18:38:34,905 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: poll_exit
+2024-09-27 18:38:34,905 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: defer
+2024-09-27 18:38:34,905 INFO    HandlerThread:65339 [handler.py:handle_request_defer():184] handle defer: 13
+2024-09-27 18:38:34,906 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: defer
+2024-09-27 18:38:34,906 INFO    SenderThread:65339 [sender.py:send_request_defer():622] handle sender defer: 13
+2024-09-27 18:38:34,906 INFO    SenderThread:65339 [sender.py:transition_state():626] send defer: 14
+2024-09-27 18:38:34,906 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: defer
+2024-09-27 18:38:34,906 DEBUG   SenderThread:65339 [sender.py:send():391] send: final
+2024-09-27 18:38:34,906 INFO    HandlerThread:65339 [handler.py:handle_request_defer():184] handle defer: 14
+2024-09-27 18:38:34,907 DEBUG   SenderThread:65339 [sender.py:send():391] send: footer
+2024-09-27 18:38:34,907 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: defer
+2024-09-27 18:38:34,907 INFO    SenderThread:65339 [sender.py:send_request_defer():622] handle sender defer: 14
+2024-09-27 18:38:34,908 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-27 18:38:34,908 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: poll_exit
+2024-09-27 18:38:34,909 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: server_info
+2024-09-27 18:38:34,909 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-27 18:38:34,910 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: server_info
+2024-09-27 18:38:34,912 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: get_summary
+2024-09-27 18:38:34,913 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: sampled_history
+2024-09-27 18:38:34,914 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-27 18:38:34,961 DEBUG   SenderThread:65339 [sender.py:send_request():418] send_request: poll_exit
+2024-09-27 18:38:34,961 INFO    MainThread:65339 [wandb_run.py:_footer_history_summary_info():4078] rendering history
+2024-09-27 18:38:34,962 INFO    MainThread:65339 [wandb_run.py:_footer_history_summary_info():4110] rendering summary
+2024-09-27 18:38:34,963 INFO    MainThread:65339 [wandb_run.py:_footer_sync_info():4037] logging synced files
+2024-09-27 18:38:34,964 DEBUG   HandlerThread:65339 [handler.py:handle_request():158] handle_request: shutdown
+2024-09-27 18:38:34,964 INFO    HandlerThread:65339 [handler.py:finish():884] shutting down handler
+2024-09-27 18:38:35,910 INFO    WriterThread:65339 [datastore.py:close():296] close: /Users/arnavkapur/Desktop/Analysis_3DImagery/imagery2024/Generation/pytorch/wandb/run-20240927_183618-juqsbprf/run-juqsbprf.wandb
+2024-09-27 18:38:35,961 INFO    SenderThread:65339 [sender.py:finish():1631] shutting down sender
+2024-09-27 18:38:35,962 INFO    SenderThread:65339 [file_pusher.py:finish():169] shutting down file pusher
+2024-09-27 18:38:35,962 INFO    SenderThread:65339 [file_pusher.py:join():175] waiting for file pusher
